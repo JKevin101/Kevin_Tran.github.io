@@ -9,7 +9,14 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 @media (min-width: 768px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .grid__item {
     width: 33.33%;
+    box-sizing: border-box;
+    padding: 0 10px;
   }
 }
