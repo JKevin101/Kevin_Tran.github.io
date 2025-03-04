@@ -11,5 +11,5 @@ search: false
 .entries-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Change to 3 columns */
-  gap: 1rem; /* Adjust the spacing between items if necessary */
+  gap: 0.25rem; /* Adjust the spacing between items if necessary */
 }
