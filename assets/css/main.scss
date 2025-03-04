@@ -10,12 +10,11 @@ search: false
 
 .entries-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Ensure 3 columns */
-  gap: 0.25rem; /* Adjust spacing if needed */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
-
 .archive__item {
-  flex-grow: 1; /* Allow items to grow */
-  width: auto; /* Ensure width can grow */
-  margin: 0 1rem; /* Adjust margin for spacing */
+  width: auto;
+  flex-grow: 1.5; /* Allow more space */
+  margin: 0 0.25rem; /* Smaller margins */
 }
