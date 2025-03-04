@@ -11,10 +11,30 @@ search: false
 .entries-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0rem;
+  gap: 1rem; // Adjust this as needed for spacing between items
 }
+
 .archive__item {
-  width: auto;
-  flex-grow: 10; /* Allow more space */
-  margin: 0 0.25rem; /* Smaller margins */
+  width: 100%; /* Let the width auto-adjust within the grid item */
+  margin: 0.5rem; /* Adjust margin for spacing between items */
+}
+
+@media (max-width: 768px) {
+  .entries-grid {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on narrower screens */
+  }
+
+  .archive__item {
+    margin: 0.5rem; /* Adjust margin as needed */
+  }
+}
+
+@media (max-width: 480px) {
+  .entries-grid {
+    grid-template-columns: repeat(1, 1fr); /* One column on very narrow screens */
+  }
+
+  .archive__item {
+    margin: 0.5rem; /* Adjust margin as needed */
+  }
 }
