@@ -13,21 +13,13 @@ search: false
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    width: 100%; /* Let it fill */
-    max-width: 1200px; /* Limit super wide screens */
-    margin: 0 auto; /* Center on page */
+    max-width: 960px;
+    margin: 0 auto;
     padding: 0 20px;
-    box-sizing: border-box;
   }
 
   .archive__item {
     width: 100%;
   }
-
-  /* Optional: Make sure the parent container allows the grid to break out */
-  .page__content {
-    width: 100%;  /* Override the default narrow width */
-    max-width: none; /* Remove upper width limit */
-    padding: 0; /* Remove any internal padding */
-  }
 }
+
