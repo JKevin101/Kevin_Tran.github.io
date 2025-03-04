@@ -9,13 +9,13 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 @media (min-width: 768px) {
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Always 3 columns */
-    gap: 20px; /* Adjust spacing between items */
+  .archive {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 20px !important;
   }
 
-  .grid__item {
-    width: 100%; /* Let grid handle sizing */
+  .archive__item {
+    width: 100% !important;
   }
 }
