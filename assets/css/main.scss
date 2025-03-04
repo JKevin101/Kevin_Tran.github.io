@@ -7,3 +7,15 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+@media (min-width: 768px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Set to 3 equal columns */
+    gap: 20px; /* Adjust space between items */
+  }
+
+  .grid__item {
+    width: 100%; /* Ensure each item fits within the grid */
+  }
+}
