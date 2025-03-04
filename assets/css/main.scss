@@ -9,17 +9,25 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 @media (min-width: 768px) {
+  /* Make sure the content container takes up the full width */
+  .page__content {
+    width: 100%; /* Allow the grid to span full width */
+    max-width: none; /* Remove any width restrictions */
+    padding: 0; /* Remove any internal padding */
+  }
+
+  /* Define the archive (project grid) */
   .archive {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 20px;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px; /* Spacing between items */
+    width: 100%; /* Let the grid take up the full width */
+    margin: 0 auto; /* Center the grid on the page */
+    padding: 0 20px; /* Padding inside the grid */
   }
 
+  /* Ensure the individual items fill their grid space */
   .archive__item {
-    width: 100%;
+    width: 100%; /* Let the grid handle the sizing */
   }
 }
-
