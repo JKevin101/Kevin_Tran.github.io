@@ -10,12 +10,15 @@ search: false
 
 @media (min-width: 768px) {
   .archive {
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
-    gap: 20px !important;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px; /* Space between columns */
+    justify-content: center; /* Center the grid itself */
+    max-width: 1200px; /* Optional: Limit max width */
+    margin: 0 auto; /* Center the whole grid on the page */
   }
 
   .archive__item {
-    width: 100% !important;
+    width: 100%; /* Each item fills its grid column */
   }
 }
