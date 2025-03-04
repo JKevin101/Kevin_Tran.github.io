@@ -8,8 +8,16 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.entries-grid {
+/* Assuming you have a wrapper class or parent element */
+.container .entries-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Change to 3 columns */
-  gap: 0.25rem; /* Adjust the spacing between items if necessary */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem; /* Example of smaller spacing */
+}
+
+/* Or use the important flag as a last resort */
+.entries-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 0.5rem !important; /* Force smaller spacing */
 }
