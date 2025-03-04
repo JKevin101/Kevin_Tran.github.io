@@ -11,15 +11,15 @@ search: false
 @media (min-width: 768px) {
   .archive {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Always 3 columns */
-    gap: 20px; /* Spacing between projects */
-    justify-content: center; /* Center grid within parent */
-    max-width: 1200px; /* Optional - limits width */
-    margin: 0 auto; /* Center the whole grid on page */
-    padding: 0 20px; /* Optional - adds side padding */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%; /* Force the grid to stretch full width */
+    max-width: 1200px; /* Optional - prevents crazy wide layouts */
+    margin: 0 auto; /* Center */
+    padding: 0 20px; /* Adds some breathing room on sides */
   }
 
   .archive__item {
-    width: 100%; /* Each project item takes full column width */
+    width: 100%;
   }
 }
