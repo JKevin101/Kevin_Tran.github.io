@@ -7,36 +7,3 @@ search: true
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
-@media (min-width: 768px) {
-  /* Remove any restrictions on the parent content container */
-  .page__content {
-    width: 100%;  /* Ensure the parent takes full width */
-    max-width: none; /* Remove max-width to prevent any restriction */
-    padding: 0; /* Remove any internal padding */
-    margin: 0; /* Remove any margin that could push it to the side */
-  }
-
-  /* Archive container should take the full width and be centered */
-  .archive {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
-    gap: 20px; /* Space between items */
-    width: 100%; /* Full width */
-    margin: 0 auto; /* Center horizontally */
-    padding: 0 20px; /* Internal padding */
-    box-sizing: border-box; /* Prevent any padding from affecting width */
-  }
-
-  /* Each archive item should fit the grid */
-  .archive__item {
-    width: 100%; /* Make sure grid handles item sizing */
-  }
-
-  /* Force all containers inside the page to stretch to 100% */
-  .initial-content, .page, .page__inner-wrap {
-    width: 100%; /* Ensure these containers stretch fully */
-    margin: 0 auto; /* Centering these elements */
-    padding: 0; /* No padding interfering */
-  }
-}
