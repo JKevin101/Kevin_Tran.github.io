@@ -11,11 +11,11 @@ search: false
 .entries-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Ensure 3 columns */
-  gap: 1rem; /* Adjust spacing if needed */
+  gap: 0.25rem; /* Adjust spacing if needed */
 }
 
 .archive__item {
   flex-grow: 1; /* Allow items to grow */
   width: auto; /* Ensure width can grow */
-  margin: 0 0.5rem; /* Adjust margin for spacing */
+  margin: 0 1rem; /* Adjust margin for spacing */
 }
