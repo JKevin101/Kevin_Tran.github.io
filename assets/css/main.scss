@@ -9,7 +9,7 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 @media (min-width: 768px) {
-  .projects .project {
+  .grid__item {
     width: 33.33%;
   }
 }
