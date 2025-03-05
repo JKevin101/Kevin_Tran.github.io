@@ -10,6 +10,9 @@ search: false
 
 .entries-grid {
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr; /* Adjust column widths to make them thicker */
-  gap: 1rem; /* Optional: Adjust spacing between items if needed */
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 1rem;
+  max-width: 1200px; /* Increase if needed */
+  margin: 0 auto; /* Center the grid */
+  padding: 0 20px;
 }
