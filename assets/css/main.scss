@@ -8,17 +8,16 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.page__content {
-    max-width: 100%; /* Remove width restrictions on content */
-    width: 100%;
-    padding: 0 20px; /* Optional padding */
-}
-
 .entries-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    max-width: 1200px; /* Increase for wider grid */
+    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Minimum 300px per item */
+    gap: 20px; /* Spacing between items */
+    max-width: 1200px; /* Optional, adjust if needed */
     margin: 0 auto;
+    justify-content: center; /* Center the grid */
+}
+
+.entries-grid .grid__item {
+    width: 100%; /* Ensures items fill their grid cell */
 }
 
