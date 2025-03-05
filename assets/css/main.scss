@@ -19,7 +19,7 @@ search: false
 
 .entries-grid .grid__item {
     width: 100%;
-    height: 1200px; /* Set the height of the grid item container */
+    min-height: 500px; /* Minimum height of the container */
 }
 
 .entries-grid .grid__item img {
