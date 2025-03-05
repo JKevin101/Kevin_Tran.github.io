@@ -13,6 +13,7 @@ search: false
     grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Minimum 300px per item */
     gap: 20px; /* Spacing between items */
     max-width: 1200px; /* Optional, adjust if needed */
+    height: auto; /* Ensure this container allows growing items */
     margin: 0 auto;
     justify-content: center; /* Center the grid */
 }
