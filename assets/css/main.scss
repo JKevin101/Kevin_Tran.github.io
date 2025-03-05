@@ -8,12 +8,12 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Main grid container - centered and constrained */
+/* Main grid container - centered and evenly split */
 .entries-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(350px, 1fr)); /* Adjust width for each item */
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns, evenly split */
     gap: 20px; /* Adjust spacing between items */
-    max-width: 1200px; /* Keeps grid from getting too wide */
+    max-width: 100%; /* Full width for the grid */
     margin: 0 auto; /* Centers the grid horizontally */
     padding: 0 20px; /* Optional side padding for smaller screens */
 }
@@ -22,9 +22,9 @@ search: false
 .entries-grid .grid__item {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the content (image + text) */
+    align-items: flex-start; /* Align content to the left */
     justify-content: flex-start; /* Keeps text under the image */
-    min-height: 350px; /* Adjusted height for each container */
+    min-height: 400px; /* Adjusted height for each container */
     padding: 10px;
     box-sizing: border-box;
 }
@@ -41,7 +41,7 @@ search: false
 .entries-grid .grid__item .archive__item-title,
 .entries-grid .grid__item .archive__item-excerpt {
     padding: 10px;
-    text-align: center;
+    text-align: left; /* Align text to the left */
     width: 100%;
     box-sizing: border-box;
     margin-top: 10px; /* Space between image and text */
