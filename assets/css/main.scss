@@ -10,26 +10,13 @@ search: false
 
 .entries-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr)); 
-    gap: 20px;
-    max-width: 1200px;
+    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Minimum 300px per item */
+    gap: 20px; /* Spacing between items */
+    max-width: 1200px; /* Optional, adjust if needed */
     margin: 0 auto;
-    justify-content: center;
+    justify-content: center; /* Center the grid */
 }
 
 .entries-grid .grid__item {
-    display: flex;
-    flex-direction: column; /* Stack image and text vertically */
-    height: auto; /* Allow the height to grow with the content */
+    width: 100%; /* Ensures items fill their grid cell */
 }
-
-// .entries-grid .grid__item img {
-//     width: 100% !important;  /* Image takes full width of grid item */
-//     height: 250px !important; /* Set a fixed height for the image */
-//     object-fit: cover !important; /* Ensure the image fills the space without distortion */
-// }
-
-// .entries-grid .grid__item .content {
-//     padding: 10px; /* Space around the text */
-//     flex-grow: 1; /* Allow the content (text) to take up remaining space */
-// }
