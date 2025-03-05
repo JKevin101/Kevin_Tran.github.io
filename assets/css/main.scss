@@ -55,7 +55,7 @@ search: false
 
 .entries-grid .grid__item img {
     width: 100%; /* Image will fill the width of the container */
-    height: 0; /* Set height to 0 initially */
+    height: 100%; /* Set height to 0 initially */
     padding-bottom: 100%; /* Creates the square by using padding */
     object-fit: cover; /* Ensures the image covers the container without distortion */
     display: block; /* Prevents any weird spacing around the image */
