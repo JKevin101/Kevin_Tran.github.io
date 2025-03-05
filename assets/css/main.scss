@@ -8,29 +8,32 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
+/* Main grid container - centered and constrained */
 .entries-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(500px, 1fr)); /* Wider columns */
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
     gap: 20px;
-    max-width: 1400px; /* Wider grid */
-    margin: 0 auto;
+    max-width: 1200px; /* This keeps the grid from getting too wide */
+    margin: 0 auto; /* This centers the grid horizontally */
+    padding: 0 20px; /* Optional side padding for smaller screens */
 }
 
+/* Each grid item (project card) */
 .entries-grid .grid__item {
     display: flex;
     flex-direction: column;
     align-items: stretch;
 }
 
-/* Square images */
+/* Image - forced square */
 .entries-grid .grid__item img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
+    width: 100%; /* Full width */
+    aspect-ratio: 1 / 1; /* Square aspect ratio */
+    object-fit: cover; /* Ensures image covers the whole square */
     display: block;
 }
 
-/* Give titles and descriptions breathing room */
+/* Text inside the grid item */
 .entries-grid .grid__item .archive__item-title,
 .entries-grid .grid__item .archive__item-excerpt {
     padding: 10px;
@@ -39,8 +42,15 @@ search: false
     box-sizing: border-box;
 }
 
+/* Responsive - fewer columns on smaller screens */
 @media (max-width: 1024px) {
     .entries-grid {
-        grid-template-columns: repeat(2, minmax(350px, 1fr)); /* 2 columns on smaller screens */
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .entries-grid {
+        grid-template-columns: 1fr;
     }
 }
