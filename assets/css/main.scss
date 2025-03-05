@@ -39,22 +39,26 @@ search: false
 // }
 .entries-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* 3 columns with dynamic width */
+    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* 3 columns */
     gap: 20px; /* Spacing between items */
-    max-width: 1200px; /* Optional, adjust if needed */
+    max-width: 1200px; /* Adjust as needed */
     margin: 0 auto;
     justify-content: center; /* Center the grid */
 }
 
 .entries-grid .grid__item {
-    width: 100%; /* Ensure grid item takes full width */
-    position: relative; /* Necessary for image positioning */
+    width: 100%; /* Full width */
+    height: 400px; /* This is the taller height — change this value to control the height */
+    overflow: hidden; /* Prevents overflow if images are too large */
+    display: flex;
+    flex-direction: column; /* Stack image and text */
+    justify-content: flex-start; /* Align content to the top */
 }
 
 .entries-grid .grid__item img {
-    width: 100%; /* Ensure the image fills the width of the container */
-    height: 100%; /* Force the height to match the width */
-    object-fit: cover; /* Ensure the image fills the square container without distortion */
-    display: block; /* Prevents any weird spacing around the image */
-    border-radius: 5px; /* Optional: Adds rounded corners if desired */
+    width: 100%; /* Image fills the width */
+    height: 100%; /* Image fills the entire height */
+    object-fit: cover; /* Crop image to cover the whole container */
+    display: block;
 }
+
