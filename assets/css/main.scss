@@ -39,27 +39,28 @@ search: false
 // }
 .entries-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(500px, 1fr)); /* 3 columns */
-    gap: 20px; /* Spacing between items */
-    max-width: 1200px; /* Adjust as needed */
+    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* 3 columns */
+    gap: 20px;
+    max-width: 1200px;
     margin: 0 auto;
-    justify-content: center; /* Center the grid */
+    justify-content: center;
 }
 
 .entries-grid .grid__item {
-    width: 100%; /* Full width */
-    height: 400px; /* This is the taller height — change this value to control the height */
-    overflow: hidden; /* Prevents overflow if images are too large */
+    width: 100%;
+    height: 400px; /* This is the container height - adjust this value to make it taller */
+    overflow: hidden; /* Prevents overflow */
     display: flex;
-    flex-direction: column; /* Stack image and text */
-    justify-content: flex-start; /* Align content to the top */
+    flex-direction: column;
 }
 
 .entries-grid .grid__item img {
-    width: 100%; /* Image fills the width */
-    height: 100%; /* Image fills the entire height */
-    object-fit: cover; /* Crop image to cover the whole container */
+    width: 100%;
+    height: 100%; /* Forces image to stretch to fill container height */
+    object-fit: cover; /* This makes sure the image covers the whole area, cropping if necessary */
     display: block;
 }
+
+
 
 
