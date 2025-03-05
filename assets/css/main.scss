@@ -40,23 +40,26 @@ search: false
 
 .entries-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Keep the same column width */
+    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* 3 columns with dynamic width */
     gap: 20px; /* Spacing between items */
-    max-width: 1200px; /* Optional: adjust if needed */
+    max-width: 1200px; /* Optional, adjust as needed */
     margin: 0 auto;
     justify-content: center; /* Center the grid */
 }
 
 .entries-grid .grid__item {
     width: 100%; /* Ensure grid item takes full width */
-    position: relative; /* Allow absolute positioning of the image */
-    padding-top: 100%; /* Makes the container's height the same as its width (square) */
-    overflow: hidden; /* Prevents content from spilling out of the square container */
+    position: relative; /* Allow positioning inside the item */
+    padding-top: 100%; /* Creates a square by making the height 100% of the width */
+    overflow: hidden; /* Ensures the image stays within the square bounds */
 }
 
 .entries-grid .grid__item img {
-    width: 100%; /* Ensure the image fills the width of the container */
-    height: 100%; /* Ensure the image fills the height of the container */
-    object-fit: cover; /* Ensures the image covers the entire square without distortion */
-    display: block; /* Ensures no extra spacing around the image */
+    position: absolute; /* Position the image within the grid item */
+    top: 0;
+    left: 0;
+    width: 100%; /* Make image fill width */
+    height: 100%; /* Make image fill height */
+    object-fit: cover; /* Ensures the image covers the square without distortion */
+    display: block; /* Prevents any extra spacing around the image */
 }
