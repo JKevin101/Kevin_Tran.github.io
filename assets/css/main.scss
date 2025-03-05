@@ -18,8 +18,9 @@ search: false
 }
 
 .entries-grid .grid__item {
-    display: flex;
-    flex-direction: column; /* Stack image and text vertically */
+    width: 100%;
+    // display: flex;
+    // flex-direction: column; /* Stack image and text vertically */
     height: auto; /* Allow the height to grow with the content */
 }
 
