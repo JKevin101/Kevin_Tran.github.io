@@ -10,19 +10,21 @@ search: false
 
 .entries-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Minimum 300px per item */
-    gap: 20px; /* Spacing between items */
-    max-width: 1200px; /* Optional, adjust if needed */
+    grid-template-columns: repeat(3, minmax(300px, 1fr)); 
+    gap: 20px;
+    max-width: 1200px;
     margin: 0 auto;
-    justify-content: center; /* Center the grid */
+    justify-content: center;
 }
 
-// .entries-grid .grid__item {
-//     width: 100%; /* Ensures items fill their grid cell */
-// }
+.entries-grid .grid__item {
+    width: 100%;
+    overflow: hidden; /* Ensures images don't spill outside grid items */
+}
 
 .entries-grid .grid__item img {
-    width: 100%; /* Ensures the image spans the entire width of the grid item */
-    height: auto; /* Maintains the image's aspect ratio */
-    object-fit: cover; /* Ensures the image covers the entire area of the grid item */
+    width: 100%;
+    height: 250px; /* You can increase this value for taller images */
+    object-fit: cover; /* This makes sure images crop nicely to fit */
+    display: block; /* Ensures no weird spacing */
 }
