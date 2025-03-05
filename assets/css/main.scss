@@ -5,45 +5,42 @@ search: false
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
 
-/* Grid layout: 3 columns */
 .entries-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, minmax(350px, 1fr)); /* Wider columns */
     gap: 20px;
-    max-width: 1200px;
+    max-width: 1400px; /* Wider grid */
     margin: 0 auto;
 }
 
-/* Each grid item holds the image and text */
 .entries-grid .grid__item {
     display: flex;
-    flex-direction: column; /* Stack image and text vertically */
+    flex-direction: column;
     align-items: stretch;
 }
 
-/* Force images into square shape */
+/* Square images */
 .entries-grid .grid__item img {
-    width: 100%;                 /* Full width */
-    aspect-ratio: 1 / 1;          /* Perfect square */
-    object-fit: cover;            /* Crop image to fill square */
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     display: block;
 }
 
-/* Make sure text (title/description) gets room and looks clean */
+/* Give titles and descriptions breathing room */
 .entries-grid .grid__item .archive__item-title,
 .entries-grid .grid__item .archive__item-excerpt {
-    flex-grow: 0;                  /* Don’t let text stretch */
-    padding: 10px;                  /* Add spacing around text */
-    text-align: center;             /* Optional: Center text */
-    width: 100%;                    /* Full width text */
-    box-sizing: border-box;         /* Padding doesn't shrink width */
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-/* Optional: Light border around each project for better separation */
-.entries-grid .grid__item {
-    border: 1px solid #ddd;
-    padding: 0;                     /* Remove default padding */
+@media (max-width: 1024px) {
+    .entries-grid {
+        grid-template-columns: repeat(2, minmax(350px, 1fr)); /* 2 columns on smaller screens */
+    }
 }
