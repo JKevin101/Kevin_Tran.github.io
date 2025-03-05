@@ -39,7 +39,7 @@ search: false
 // }
 .entries-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* 3 columns */
+    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* 3 equal columns */
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
@@ -47,19 +47,21 @@ search: false
 }
 
 .entries-grid .grid__item {
-    width: 100%;
-    height: 400px; /* This is the container height - adjust this value to make it taller */
-    overflow: hidden; /* Prevents overflow */
+    width: 100%; 
+    overflow: hidden; 
     display: flex;
     flex-direction: column;
+    align-items: stretch;
 }
 
+/* NEW - Force square images */
 .entries-grid .grid__item img {
-    width: 100%;
-    height: 100%; /* Forces image to stretch to fill container height */
-    object-fit: cover; /* This makes sure the image covers the whole area, cropping if necessary */
-    display: block;
+    width: 100%;               /* Full width of the grid item */
+    aspect-ratio: 1 / 1;       /* Force square aspect ratio */
+    object-fit: cover;         /* Crop to fill square */
+    display: block;            /* Remove any extra spacing */
 }
+
 
 
 
