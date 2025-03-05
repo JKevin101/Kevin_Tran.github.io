@@ -17,34 +17,33 @@ search: false
     margin: 0 auto;
 }
 
-/* Ensure each grid item stretches to fill */
+/* Each grid item holds the image and text */
 .entries-grid .grid__item {
     display: flex;
-    flex-direction: column; /* stack image and text */
+    flex-direction: column; /* Stack image and text vertically */
     align-items: stretch;
 }
 
 /* Force images into square shape */
 .entries-grid .grid__item img {
-    width: 100%;                 /* Fill width of grid item */
-    aspect-ratio: 1 / 1;          /* Force square */
-    object-fit: cover;            /* Crop to fit nicely */
+    width: 100%;                 /* Full width */
+    aspect-ratio: 1 / 1;          /* Perfect square */
+    object-fit: cover;            /* Crop image to fill square */
     display: block;
 }
 
-/* Optional: Center text below image */
-.entries-grid .grid__item .archive__item-title {
-    text-align: center;
-    padding: 10px 0;
+/* Make sure text (title/description) gets room and looks clean */
+.entries-grid .grid__item .archive__item-title,
+.entries-grid .grid__item .archive__item-excerpt {
+    flex-grow: 0;                  /* Don’t let text stretch */
+    padding: 10px;                  /* Add spacing around text */
+    text-align: center;             /* Optional: Center text */
+    width: 100%;                    /* Full width text */
+    box-sizing: border-box;         /* Padding doesn't shrink width */
 }
 
-/* Optional: Ensure grid container itself stretches */
-.entries-grid {
-    align-items: start;
-}
-
-/* Optional debug helper - Add light border to see grid items */
+/* Optional: Light border around each project for better separation */
 .entries-grid .grid__item {
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 0;                     /* Remove default padding */
 }
