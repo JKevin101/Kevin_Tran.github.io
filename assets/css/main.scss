@@ -23,13 +23,13 @@ search: false
     height: auto; /* Allow the height to grow with the content */
 }
 
-.entries-grid .grid__item img {
-    width: 100% !important;  /* Image takes full width of grid item */
-    height: 250px !important; /* Set a fixed height for the image */
-    object-fit: cover !important; /* Ensure the image fills the space without distortion */
-}
+// .entries-grid .grid__item img {
+//     width: 100% !important;  /* Image takes full width of grid item */
+//     height: 250px !important; /* Set a fixed height for the image */
+//     object-fit: cover !important; /* Ensure the image fills the space without distortion */
+// }
 
-.entries-grid .grid__item .content {
-    padding: 10px; /* Space around the text */
-    flex-grow: 1; /* Allow the content (text) to take up remaining space */
-}
+// .entries-grid .grid__item .content {
+//     padding: 10px; /* Space around the text */
+//     flex-grow: 1; /* Allow the content (text) to take up remaining space */
+// }
