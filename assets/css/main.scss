@@ -39,7 +39,7 @@ search: false
 // }
 .entries-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* 3 columns */
+    grid-template-columns: repeat(3, minmax(500px, 1fr)); /* 3 columns */
     gap: 20px; /* Spacing between items */
     max-width: 1200px; /* Adjust as needed */
     margin: 0 auto;
@@ -48,7 +48,7 @@ search: false
 
 .entries-grid .grid__item {
     width: 100%; /* Full width */
-    height: 1000px; /* This is the taller height — change this value to control the height */
+    height: 400px; /* This is the taller height — change this value to control the height */
     overflow: hidden; /* Prevents overflow if images are too large */
     display: flex;
     flex-direction: column; /* Stack image and text */
@@ -61,4 +61,5 @@ search: false
     object-fit: cover; /* Crop image to cover the whole container */
     display: block;
 }
+
 
