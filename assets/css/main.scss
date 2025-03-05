@@ -8,32 +8,57 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.entries-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Minimum 300px per item */
-    gap: 20px; /* Spacing between items */
-    max-width: 1200px; /* Optional, adjust if needed */
-    height: auto; /* Ensure this container allows growing items */
-    margin: 0 auto;
-    justify-content: center; /* Center the grid */
-}
+// .entries-grid {
+//     display: grid;
+//     grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Minimum 300px per item */
+//     gap: 20px; /* Spacing between items */
+//     max-width: 1200px; /* Optional, adjust if needed */
+//     height: auto; /* Ensure this container allows growing items */
+//     margin: 0 auto;
+//     justify-content: center; /* Center the grid */
+// }
+
+// // .entries-grid .grid__item {
+// //     width: 100%;
+// //     min-height: 500px; /* Minimum height of the container */
+// // }
 
 // .entries-grid .grid__item {
 //     width: 100%;
-//     min-height: 500px; /* Minimum height of the container */
+//     min-height: 500px; /* Minimum height */
+//     display: flex; /* Ensure it grows */
+//     flex-direction: column; /* Stack content vertically */
+//     height: auto; /* Allow it to grow based on content */
 // }
 
+// .entries-grid .grid__item img {
+//     width: 100%; /* Keep the width of the image filling the grid item */
+//     height: 100%; /* The image will now fill the container height */
+//     object-fit: cover; /* Ensures the image covers the container without distortion */
+//     display: block; /* Ensures no weird spacing around the image */
+// }
+
+.entries-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Set 3 columns */
+    gap: 20px; /* Spacing between items */
+    max-width: 1200px; /* Maximum width of grid container */
+    margin: 0 auto; /* Center the grid container */
+    justify-content: center; /* Center the grid items horizontally */
+    width: 100%; /* Ensure the grid container takes full width */
+}
+
 .entries-grid .grid__item {
-    width: 100%;
-    min-height: 500px; /* Minimum height */
-    display: flex; /* Ensure it grows */
-    flex-direction: column; /* Stack content vertically */
-    height: auto; /* Allow it to grow based on content */
+    width: 100%; /* Make sure grid items take full width */
+    min-height: 500px; /* Minimum height to make the container taller */
+    display: flex; /* Ensure the item is a flex container */
+    flex-direction: column; /* Stack image and text vertically */
+    justify-content: space-between; /* Make sure content is spaced evenly */
 }
 
 .entries-grid .grid__item img {
     width: 100%; /* Keep the width of the image filling the grid item */
-    height: 100%; /* The image will now fill the container height */
-    object-fit: cover; /* Ensures the image covers the container without distortion */
-    display: block; /* Ensures no weird spacing around the image */
+    height: 250px; /* Set fixed height for the image */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+    display: block; /* Prevent any unwanted spacing */
 }
