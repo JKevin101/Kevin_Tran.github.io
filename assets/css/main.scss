@@ -8,61 +8,27 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// .entries-grid {
-//     display: grid;
-//     grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Minimum 300px per item */
-//     gap: 20px; /* Spacing between items */
-//     max-width: 1200px; /* Optional, adjust if needed */
-//     height: auto; /* Ensure this container allows growing items */
-//     margin: 0 auto;
-//     justify-content: center; /* Center the grid */
-// }
-
-// // .entries-grid .grid__item {
-// //     width: 100%;
-// //     min-height: 500px; /* Minimum height of the container */
-// // }
-
-// .entries-grid .grid__item {
-//     width: 100%;
-//     min-height: 500px; /* Minimum height */
-//     display: flex; /* Ensure it grows */
-//     flex-direction: column; /* Stack content vertically */
-//     height: auto; /* Allow it to grow based on content */
-// }
-
-// .entries-grid .grid__item img {
-//     width: 100%; /* Keep the width of the image filling the grid item */
-//     height: 100%; /* The image will now fill the container height */
-//     object-fit: cover; /* Ensures the image covers the container without distortion */
-//     display: block; /* Ensures no weird spacing around the image */
-// }
 .entries-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* 3 equal columns */
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    justify-content: center;
+    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* 3 columns */
+    gap: 20px; /* Space between items */
+    max-width: 1200px; /* Total grid width, optional */
+    margin: 0 auto; /* Center the whole grid */
+    justify-content: center; /* Ensures grid stays centered */
 }
 
 .entries-grid .grid__item {
-    width: 100%; 
-    overflow: hidden; 
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: stretch;
+    flex-direction: column; /* Stack image and text */
+    align-items: flex-start; /* Align text to the left */
 }
 
-/* NEW - Force square images */
+/* --- Force Images to be Square --- */
 .entries-grid .grid__item img {
-    width: 100%;               /* Full width of the grid item */
-    aspect-ratio: 1 / 1;       /* Force square aspect ratio */
-    object-fit: cover;         /* Crop to fill square */
-    display: block;            /* Remove any extra spacing */
+    width: 100%; /* Fill the grid item width */
+    aspect-ratio: 1 / 1; /* Forces square aspect ratio */
+    object-fit: cover; /* Crops images to cover the square evenly */
+    display: block; /* Remove unwanted whitespace */
+    border-radius: 8px; /* Optional - adds rounded corners */
 }
-
-
-
-
-
