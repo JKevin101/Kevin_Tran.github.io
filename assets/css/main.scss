@@ -10,7 +10,7 @@ search: false
 
 .entries-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(350px, 1fr)); /* Wider columns */
+    grid-template-columns: repeat(3, minmax(500px, 1fr)); /* Wider columns */
     gap: 20px;
     max-width: 1400px; /* Wider grid */
     margin: 0 auto;
