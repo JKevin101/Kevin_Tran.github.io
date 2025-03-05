@@ -11,25 +11,29 @@ search: false
 /* Main grid container - centered and constrained */
 .entries-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    gap: 20px;
-    max-width: 1200px; /* This keeps the grid from getting too wide */
-    margin: 0 auto; /* This centers the grid horizontally */
+    grid-template-columns: repeat(3, minmax(350px, 1fr)); /* Adjust width for each item */
+    gap: 20px; /* Adjust spacing between items */
+    max-width: 1200px; /* Keeps grid from getting too wide */
+    margin: 0 auto; /* Centers the grid horizontally */
     padding: 0 20px; /* Optional side padding for smaller screens */
 }
 
-/* Each grid item (project card) */
+/* Each grid item container (project card) */
 .entries-grid .grid__item {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center; /* Center the content (image + text) */
+    justify-content: flex-start; /* Keeps text under the image */
+    min-height: 350px; /* Adjusted height for each container */
+    padding: 10px;
+    box-sizing: border-box;
 }
 
-/* Image - forced square */
+/* Image - forced square and covers the whole space */
 .entries-grid .grid__item img {
-    width: 100%; /* Full width */
+    width: 100%; /* Ensures image fills the container */
     aspect-ratio: 1 / 1; /* Square aspect ratio */
-    object-fit: cover; /* Ensures image covers the whole square */
+    object-fit: cover; /* Ensures image covers the square without stretching */
     display: block;
 }
 
@@ -40,17 +44,18 @@ search: false
     text-align: center;
     width: 100%;
     box-sizing: border-box;
+    margin-top: 10px; /* Space between image and text */
 }
 
 /* Responsive - fewer columns on smaller screens */
 @media (max-width: 1024px) {
     .entries-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
     }
 }
 
 @media (max-width: 600px) {
     .entries-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* 1 column on phones */
     }
 }
