@@ -51,13 +51,16 @@ search: false
     display: flex; /* Allow for flexible content layout */
     flex-direction: column; /* Stack image and content vertically */
     justify-content: center; /* Center the content vertically */
+    position: relative; /* Ensure the image container can hold the image correctly */
 }
 
 .entries-grid .grid__item img {
     width: 100%; /* Image will fill the width of the container */
-    height: 150%; /* Set height to 0 initially */
-    padding-bottom: 100%; /* Creates the square by using padding */
-    object-fit: cover; /* Ensures the image covers the container without distortion */
+    height: 0; /* Start with height 0 so padding can set the aspect ratio */
+    padding-bottom: 100%; /* This creates the square aspect ratio by using padding */
+    object-fit: cover; /* Ensures the image covers the square container without distortion */
     display: block; /* Prevents any weird spacing around the image */
 }
+
+
 
