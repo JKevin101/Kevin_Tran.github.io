@@ -21,3 +21,9 @@ search: false
     width: 100%; /* Ensures items fill their grid cell */
 }
 
+.entries-grid .grid__item img {
+    width: 100%; /* Make sure the image spans the whole item */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 300px; /* Adjust this to make the images taller if desired */
+    object-fit: cover; /* Ensures the images cover the area nicely */
+}
