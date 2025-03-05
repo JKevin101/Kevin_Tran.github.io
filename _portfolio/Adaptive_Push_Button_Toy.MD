@@ -3,7 +3,7 @@ title: "Toy Button Accessibility"
 excerpt: "This project modifies a children's toy to enhance accessibility for children with limited motor skills, using an external push button for easier interaction."
 header:
   image: /assets/img/AccessibleToy/Modified_Toy.jpg
-  teaser: /assets/img/AccessibleToy/Teaser.jpg
+  teaser: /assets/img/Adaptive_Push_Button_Toy/Teaser.png
 gallery:
   - url: /assets/img/OriginalToy.jpg
     image_path: /assets/img/AccessibleToy/OriginalToy.jpg
