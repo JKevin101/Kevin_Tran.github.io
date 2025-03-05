@@ -8,42 +8,43 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/* Grid layout: 3 columns */
 .entries-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* 3 columns with minimum 300px width */
-    gap: 20px; /* Space between items */
-    max-width: 1200px; /* Total grid width, optional */
-    margin: 0 auto; /* Center the whole grid */
-    justify-content: center; /* Ensures grid stays centered */
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.grid__item {
-    width: 100%;
+/* Ensure each grid item stretches to fill */
+.entries-grid .grid__item {
     display: flex;
-    flex-direction: column; /* Stack image and text */
-    align-items: flex-start; /* Align text to the left */
-    /* Ensure there's enough space around the grid items */
-    box-sizing: border-box;
+    flex-direction: column; /* stack image and text */
+    align-items: stretch;
 }
 
-.grid__item img {
-    width: 100%;
-    aspect-ratio: 1 / 1; /* Forces square aspect ratio */
-    object-fit: cover; /* Ensures image covers the square */
-    display: block; /* Removes unwanted whitespace */
-    border-radius: 8px; /* Optional: adds rounded corners */
+/* Force images into square shape */
+.entries-grid .grid__item img {
+    width: 100%;                 /* Fill width of grid item */
+    aspect-ratio: 1 / 1;          /* Force square */
+    object-fit: cover;            /* Crop to fit nicely */
+    display: block;
 }
 
-
-/* --- Media Queries for Responsiveness --- */
-@media (max-width: 768px) {
-    .entries-grid {
-        grid-template-columns: repeat(2, minmax(200px, 1fr)); /* Adjust columns for smaller screens */
-    }
+/* Optional: Center text below image */
+.entries-grid .grid__item .archive__item-title {
+    text-align: center;
+    padding: 10px 0;
 }
 
-@media (max-width: 480px) {
-    .entries-grid {
-        grid-template-columns: 1fr; /* Single column for very small screens */
-    }
+/* Optional: Ensure grid container itself stretches */
+.entries-grid {
+    align-items: start;
+}
+
+/* Optional debug helper - Add light border to see grid items */
+.entries-grid .grid__item {
+    border: 1px solid #ddd;
+    padding: 10px;
 }
