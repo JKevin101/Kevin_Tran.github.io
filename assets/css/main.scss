@@ -23,8 +23,7 @@ search: false
 }
 
 .entries-grid .grid__item img {
-    width: 100%;
-    height: 250px; /* You can increase this value for taller images */
-    object-fit: cover; /* This makes sure images crop nicely to fit */
-    display: block; /* Ensures no weird spacing */
+    width: 100% !important;
+    height: 250px !important;
+    object-fit: cover !important;
 }
