@@ -37,7 +37,6 @@ search: false
 //     object-fit: cover; /* Ensures the image covers the container without distortion */
 //     display: block; /* Ensures no weird spacing around the image */
 // }
-
 .entries-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr)); /* 3 columns with dynamic width */
@@ -55,9 +54,6 @@ search: false
 }
 
 .entries-grid .grid__item img {
-    position: absolute; /* Position the image within the grid item */
-    top: 0;
-    left: 0;
     width: 100%; /* Make image fill width */
     height: 100%; /* Make image fill height */
     object-fit: cover; /* Ensures the image covers the square without distortion */
