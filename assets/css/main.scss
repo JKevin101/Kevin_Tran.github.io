@@ -18,12 +18,12 @@ search: false
 }
 
 .entries-grid .grid__item {
-    width: 100%;
-    overflow: hidden; /* Ensures images don't spill outside grid items */
+    height: 300px !important; /* Force grid items to have a minimum height */
+    overflow: hidden !important;
 }
 
 .entries-grid .grid__item img {
     width: 100% !important;
-    height: 250px !important;
-    object-fit: cover !important;
+    height: 100% !important;
+    object-fit: cover !important; /* Fill and crop image as needed */
 }
