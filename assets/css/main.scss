@@ -10,25 +10,40 @@ search: false
 
 .entries-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* 3 columns */
+    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* 3 columns with minimum 300px width */
     gap: 20px; /* Space between items */
     max-width: 1200px; /* Total grid width, optional */
     margin: 0 auto; /* Center the whole grid */
     justify-content: center; /* Ensures grid stays centered */
 }
 
-.entries-grid .grid__item {
+.grid__item {
     width: 100%;
     display: flex;
     flex-direction: column; /* Stack image and text */
     align-items: flex-start; /* Align text to the left */
+    /* Ensure there's enough space around the grid items */
+    box-sizing: border-box;
 }
 
-/* --- Force Images to be Square --- */
-.entries-grid .grid__item img {
-    width: 100%; /* Fill the grid item width */
+.grid__item img {
+    width: 100%;
     aspect-ratio: 1 / 1; /* Forces square aspect ratio */
-    object-fit: cover; /* Crops images to cover the square evenly */
-    display: block; /* Remove unwanted whitespace */
-    border-radius: 8px; /* Optional - adds rounded corners */
+    object-fit: cover; /* Ensures image covers the square */
+    display: block; /* Removes unwanted whitespace */
+    border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+
+/* --- Media Queries for Responsiveness --- */
+@media (max-width: 768px) {
+    .entries-grid {
+        grid-template-columns: repeat(2, minmax(200px, 1fr)); /* Adjust columns for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .entries-grid {
+        grid-template-columns: 1fr; /* Single column for very small screens */
+    }
 }
