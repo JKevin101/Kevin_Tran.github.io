@@ -18,9 +18,17 @@ search: false
     justify-content: center; /* Center the grid */
 }
 
+// .entries-grid .grid__item {
+//     width: 100%;
+//     min-height: 500px; /* Minimum height of the container */
+// }
+
 .entries-grid .grid__item {
     width: 100%;
-    min-height: 500px; /* Minimum height of the container */
+    min-height: 500px; /* Minimum height */
+    display: flex; /* Ensure it grows */
+    flex-direction: column; /* Stack content vertically */
+    height: auto; /* Allow it to grow based on content */
 }
 
 .entries-grid .grid__item img {
