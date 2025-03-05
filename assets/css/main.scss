@@ -5,13 +5,13 @@ search: false
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
-@import "minimal-mistakes";
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; 
+@import "minimal-mistakes"; 
 
 /* Main grid container - centered and evenly split */
 .entries-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns, evenly split */
+    grid-template-columns: repeat(3, minmax(350px, 1fr)); /* Minimum 350px per item, but can grow */
     gap: 20px; /* Adjust spacing between items */
     max-width: 100%; /* Full width for the grid */
     margin: 0 auto; /* Centers the grid horizontally */
@@ -22,16 +22,16 @@ search: false
 .entries-grid .grid__item {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align content to the left */
-    justify-content: flex-start; /* Keeps text under the image */
+    align-items: center; /* Align image and text to the center */
+    justify-content: flex-start; /* Keeps text below the image */
     min-height: 400px; /* Adjusted height for each container */
     padding: 10px;
     box-sizing: border-box;
 }
 
-/* Image - forced square and covers the whole space */
+/* Image - forced square */
 .entries-grid .grid__item img {
-    width: 100%; /* Ensures image fills the container */
+    width: 100%; /* Ensure image fills the container */
     aspect-ratio: 1 / 1; /* Square aspect ratio */
     object-fit: cover; /* Ensures image covers the square without stretching */
     display: block;
