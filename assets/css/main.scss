@@ -8,32 +8,33 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Grid Layout for Portfolio Items */
+/* Grid Layout */
 .entries-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    gap: 30px;
-    max-width: 1400px;
+    gap: 20px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
-/* Individual grid item (each project card) */
+/* Each grid item */
 .entries-grid .grid__item {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Stack image + text vertically */
     align-items: flex-start;
     width: 100%;
 }
 
-/* Square Images */
+/* Force Square Image */
 .entries-grid .grid__item img {
     width: 100%;
-    aspect-ratio: 1 / 1; /* Force square */
-    object-fit: cover;
+    aspect-ratio: 1 / 1; /* Forces the image to be square */
+    object-fit: cover; /* Crops image to cover square while preserving aspect ratio */
+    display: block; /* Removes any space around image */
 }
 
-/* Text below the image */
+/* Text Section */
 .entries-grid .grid__item .archive__item-title,
 .entries-grid .grid__item .archive__item-excerpt {
     text-align: left;
@@ -42,11 +43,24 @@ search: false
 }
 
 .entries-grid .grid__item .archive__item-title {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
 .entries-grid .grid__item .archive__item-excerpt {
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.4;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 1024px) {
+    .entries-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .entries-grid {
+        grid-template-columns: 1fr; /* 1 column for small screens */
+    }
 }
