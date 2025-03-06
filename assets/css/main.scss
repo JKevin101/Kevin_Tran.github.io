@@ -5,57 +5,60 @@ search: false
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; 
-@import "minimal-mistakes"; 
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
 
-/* Main grid container - centered and evenly split */
+/* Entries Grid Container */
 .entries-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(350px, 1fr)); /* Minimum 350px per item, but can grow */
-    gap: 20px; /* Adjust spacing between items */
-    max-width: 100%; /* Full width for the grid */
-    margin: 0 auto; /* Centers the grid horizontally */
-    padding: 0 20px; /* Optional side padding for smaller screens */
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 30px; /* Space between items */
+    max-width: 1400px; /* Optional: Adjust depending on how wide you want the grid */
+    margin: 0 auto;
+    padding: 0 20px; /* Side padding to avoid edge hugging */
 }
 
-/* Each grid item container (project card) */
+/* Individual Grid Item (each project card) */
 .entries-grid .grid__item {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Align image and text to the center */
-    justify-content: flex-start; /* Keeps text below the image */
-    min-height: 400px; /* Adjusted height for each container */
-    padding: 10px;
-    box-sizing: border-box;
+    align-items: flex-start; /* Align text to the left */
+    width: 100%;
 }
 
-/* Image - forced square */
+/* Image inside the grid item - square image */
 .entries-grid .grid__item img {
-    width: 100%; /* Ensure image fills the container */
-    aspect-ratio: 1 / 1; /* Square aspect ratio */
-    object-fit: cover; /* Ensures image covers the square without stretching */
-    display: block;
+    width: 100%;  /* Take full width of the column */
+    aspect-ratio: 1 / 1; /* Force square image */
+    object-fit: cover; /* Crop the image to fit square */
 }
 
-/* Text inside the grid item */
+/* Text content (title, excerpt) inside grid item */
 .entries-grid .grid__item .archive__item-title,
 .entries-grid .grid__item .archive__item-excerpt {
-    padding: 10px;
-    text-align: left; /* Align text to the left */
-    width: 100%;
-    box-sizing: border-box;
+    text-align: left; /* Left-align the text */
     margin-top: 10px; /* Space between image and text */
+    width: 100%;
 }
 
-/* Responsive - fewer columns on smaller screens */
+/* Optional: Adjust font size or spacing to match your design */
+.entries-grid .grid__item .archive__item-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.entries-grid .grid__item .archive__item-excerpt {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+/* Responsive Adjustments */
 @media (max-width: 1024px) {
     .entries-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
     }
 }
 
 @media (max-width: 600px) {
     .entries-grid {
-        grid-template-columns: 1fr; /* 1 column on phones */
-    }
-}
+        grid-te
