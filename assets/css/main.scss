@@ -8,40 +8,39 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Entries Grid Container */
+/* Grid Layout for Portfolio Items */
 .entries-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    gap: 30px; /* Space between items */
-    max-width: 1400px; /* Optional: Adjust depending on how wide you want the grid */
+    gap: 30px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 0 20px; /* Side padding to avoid edge hugging */
+    padding: 0 20px;
 }
 
-/* Individual Grid Item (each project card) */
+/* Individual grid item (each project card) */
 .entries-grid .grid__item {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align text to the left */
+    align-items: flex-start;
     width: 100%;
 }
 
-/* Image inside the grid item - square image */
+/* Square Images */
 .entries-grid .grid__item img {
-    width: 100%;  /* Take full width of the column */
-    aspect-ratio: 1 / 1; /* Force square image */
-    object-fit: cover; /* Crop the image to fit square */
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Force square */
+    object-fit: cover;
 }
 
-/* Text content (title, excerpt) inside grid item */
+/* Text below the image */
 .entries-grid .grid__item .archive__item-title,
 .entries-grid .grid__item .archive__item-excerpt {
-    text-align: left; /* Left-align the text */
-    margin-top: 10px; /* Space between image and text */
+    text-align: left;
+    margin-top: 10px;
     width: 100%;
 }
 
-/* Optional: Adjust font size or spacing to match your design */
 .entries-grid .grid__item .archive__item-title {
     font-size: 1.2rem;
     font-weight: bold;
@@ -51,14 +50,3 @@ search: false
     font-size: 1rem;
     line-height: 1.4;
 }
-
-/* Responsive Adjustments */
-@media (max-width: 1024px) {
-    .entries-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
-    }
-}
-
-@media (max-width: 600px) {
-    .entries-grid {
-        grid-te
