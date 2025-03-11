@@ -22,8 +22,8 @@ This innovative prosthetic device replicates natural hand movements by convertin
 {% include gallery caption="The image on the left displays an early prototype of the Bionic Hand, highlighting the integration of servo motors and initial wiring. The center image features the fully assembled bionic hand, showcasing its functional components and design. On the right is the circuit diagram, detailing the electrical connections and architecture of the EMG-controlled system." %}
 
 ### Purpose and Features
-- **Purpose**: To develop a prosthetic hand that mimics natural hand movements using muscle activity data (EMG).
-- **Key Features**:
+- Purpose: To develop a prosthetic hand that mimics natural hand movements using muscle activity data (EMG).
+- Key Features:
   - EMG signal integration for real-time control.
   - Servo motor articulation for lifelike finger movement.
   - OLED display for feedback on muscle signals and system status.
@@ -34,7 +34,7 @@ This innovative prosthetic device replicates natural hand movements by convertin
 ### Parts List
 #### Off-the-Shelf Components
 
-| **Part**               | **Quantity** | **Description**                       |
+| Part               | Quantity | Description                       |
 |-------------------------|--------------|---------------------------------------|
 | Arduino Uno            | 1            | Microcontroller for signal processing |
 | MyoWare EMG Sensor Kit | 1            | Reads muscle activity signals         |
@@ -43,7 +43,7 @@ This innovative prosthetic device replicates natural hand movements by convertin
 
 #### 3D-Printed Components
 
-| **Part**          | **Material** | **Purpose**                     |
+| Part          | Material | Purpose                     |
 |--------------------|--------------|---------------------------------|
 | Hand Frame         | PLA          | Provides structure and durability |
 | Finger Joints      | PLA          | Articulating finger components  |
@@ -58,25 +58,25 @@ This innovative prosthetic device replicates natural hand movements by convertin
 
 ### Operation
 
-1. **Hardware Setup**:
-   - **EMG Sensor Placement**: Attach the MyoWare EMG sensors to the target muscle groups responsible for hand movements. Ensure proper skin contact for accurate signal detection.
-   - **Circuit Assembly**: Connect the EMG sensors, servo motors, and OLED display to the Arduino board as per the provided circuit diagram in the [Circuit Diagram](https://github.com/JKevin101/Bionic_Hand/blob/5ccf55b6d32624cabfeccd29a5afa77dec50e408/README.md).
+1. Hardware Setup:
+   - EMG Sensor Placement: Attach the MyoWare EMG sensors to the target muscle groups responsible for hand movements. Ensure proper skin contact for accurate signal detection.
+   - Circuit Assembly: Connect the EMG sensors, servo motors, and OLED display to the Arduino board as per the provided circuit diagram in the [Circuit Diagram](https://github.com/JKevin101/Bionic_Hand/blob/5ccf55b6d32624cabfeccd29a5afa77dec50e408/README.md).
 
-2. **Software Setup**:
-   - **Arduino IDE**: Download and install the [Arduino IDE](https://www.arduino.cc/en/software/).
-   - **Library Installation**: Within the Arduino IDE, install the necessary libraries:
+2. Software Setup:
+   - Arduino IDE: Download and install the [Arduino IDE](https://www.arduino.cc/en/software/).
+   - Library Installation: Within the Arduino IDE, install the necessary libraries:
      - `Servo.h` for controlling the servo motors.
      - `Wire.h`, `Adafruit_GFX.h`, and `Adafruit_SSD1306.h` for handling the OLED display.
-   - **Code Upload**: Open the Arduino code from [Arduino Code](https://github.com/JKevin101/Bionic_Hand/blob/5ccf55b6d32624cabfeccd29a5afa77dec50e408/Bionic_Hand_Code/Bionic_Hand_Code.ino) and upload it to the Arduino board.
+   - Code Upload: Open the Arduino code from [Arduino Code](https://github.com/JKevin101/Bionic_Hand/blob/5ccf55b6d32624cabfeccd29a5afa77dec50e408/Bionic_Hand_Code/Bionic_Hand_Code.ino) and upload it to the Arduino board.
 
-3. **System Calibration**:
-   - **Power On**: Supply power to the Arduino board.
-   - **Signal Monitoring**: Observe the OLED display for real-time feedback on EMG signal strength and system status.
-   - **Threshold Adjustment**: If necessary, adjust the EMG signal thresholds in the code to match the user's muscle signal strength for optimal performance.
+3. System Calibration:
+   - Power On: Supply power to the Arduino board.
+   - Signal Monitoring: Observe the OLED display for real-time feedback on EMG signal strength and system status.
+   - Threshold Adjustment: If necessary, adjust the EMG signal thresholds in the code to match the user's muscle signal strength for optimal performance.
 
-4. **Operation**:
-   - **Muscle Activation**: Flex and extend the muscles where the EMG sensors are placed.
-   - **Hand Movement**: The bionic hand should mimic the user's muscle movements in real time, providing lifelike articulation.
+4. Operation:
+   - Muscle Activation: Flex and extend the muscles where the EMG sensors are placed.
+   - Hand Movement: The bionic hand should mimic the user's muscle movements in real time, providing lifelike articulation.
 
 ---
 
