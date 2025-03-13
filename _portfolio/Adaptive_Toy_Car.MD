@@ -1,86 +1,109 @@
 ---
-title: "EMG-Controlled Bionic Hand"
-excerpt: "This custom-designed bionic hand operates using EMG signals, combining precision engineering and innovative bio-signal processing for enhanced prosthetic functionality."
+title: "Accessible Toy Car Modification"
+excerpt: "This project modifies a toy car to enhance accessibility for children with disabilities, using an external push button, a potentiometer for speed control, and a modified steering wheel."
 header:
-  image: /assets/img/Full_Assembly.jpg
-  teaser: /assets/img/Teaser.jpg
+  image: /assets/img/AccessibleToyCar/Modified_Toy_Car.jpg
+  teaser: /assets/img/AccessibleToyCar/Teaser.jpg
 gallery:
-  - url: /assets/img/Prototype.jpg
-    image_path: /assets/img/Prototype.jpg
-    alt: "placeholder image 1"
-  - url: /assets/img/Circuitboard.jpg
-    image_path: /assets/img/Circuitboard.jpg
-    alt: "placeholder image 2"
-  - url: /assets/img/Visual.png
-    image_path: /assets/img/Visual.png
-    alt: "placeholder image 3"
+  - url: /assets/img/OriginalCar.jpg
+    image_path: /assets/img/AccessibleToyCar/OriginalCar.jpg
+    alt: "Original toy car before modification"
+  - url: /assets/img/ModifiedCar.jpg
+    image_path: /assets/img/AccessibleToyCar/ModifiedCar.jpg
+    alt: "Modified toy car with accessibility features"
+  - url: /assets/img/CircuitDiagram.jpg
+    image_path: /assets/img/AccessibleToyCar/CircuitDiagram.jpg
+    alt: "Circuit diagram showing modifications"
 
 ---
 
-This innovative prosthetic device replicates natural hand movements by converting EMG signals from muscle activity into precise mechanical motion. Powered by MyoWare EMG sensors, an Arduino microcontroller, and five servo motors, the bionic hand provides lifelike articulation and responsiveness. An OLED display enhances usability by offering real-time feedback on muscle signals and system performance. Combining advanced bio-signal processing, hardware design, and software development, this project demonstrates a functional and accessible solution for improving prosthetic technology.
+This project modifies a standard **toy car** to improve accessibility for **children with disabilities**, particularly those who face challenges with motor control. The modifications include an **external push button for simplified operation, a potentiometer for adjustable speed control, and a modified steering wheel** for easier grip. These changes allow children with **limited dexterity and mobility impairments** to engage in play, fostering both **independence and skill development**.
 
-{% include gallery caption="The image on the left displays an early prototype of the Bionic Hand, highlighting the integration of servo motors and initial wiring. The center image features the fully assembled bionic hand, showcasing its functional components and design. On the right is the circuit diagram, detailing the electrical connections and architecture of the EMG-controlled system." %}
+{% include gallery caption="The gallery above shows the original toy car before modification, the modified version with enhanced accessibility features, and the circuit diagram detailing the electrical changes." %}
 
-### Purpose and Features
-- **Purpose**: To develop a prosthetic hand that mimics natural hand movements using muscle activity data (EMG).
+---
+
+## 🎯 Purpose and Features
+- **Purpose**: To create an inclusive play experience by modifying a toy car for children with **motor impairments and learning disabilities**.
 - **Key Features**:
-  - EMG signal integration for real-time control.
-  - Servo motor articulation for lifelike finger movement.
-  - OLED display for feedback on muscle signals and system status.
-  - Lightweight, customizable design with 3D-printed components.
+  - **External push button** replaces the gas pedal for easier operation.
+  - **Potentiometer-based speed control** for parental adjustment.
+  - **Modified steering wheel** with **PVC grips** for better handling.
+  - **Durable, child-safe modifications** while maintaining toy integrity.
+  - **Compliance with ASTM F963-17 Toy Safety Standards**.
 
 ---
 
-### Parts List
-#### Off-the-Shelf Components
+## 🛠️ Parts List
+#### **Off-the-Shelf Components**
 
-| **Part**               | **Quantity** | **Description**                       |
-|-------------------------|--------------|---------------------------------------|
-| Arduino Uno            | 1            | Microcontroller for signal processing |
-| MyoWare EMG Sensor Kit | 1            | Reads muscle activity signals         |
-| Servo Motors           | 5            | Enables movement of fingers           |
-| OLED Display           | 1            | Provides real-time system feedback    |
+| **Part**                 | **Quantity** | **Description**                             |
+|--------------------------|-------------|---------------------------------------------|
+| Toy Car                  | 1           | Base vehicle for modification              |
+| External Push Button     | 1           | Large button for simplified car operation  |
+| Potentiometer            | 1           | Adjusts car speed                          |
+| PVC Pipes                | Various     | Used for steering wheel grips              |
+| Heat Shrink Tubing       | Various     | Insulates exposed wires                    |
+| Wire                     | Various     | Extends electrical connections             |
 
-#### 3D-Printed Components
+#### **Modification Materials**
 
-| **Part**          | **Material** | **Purpose**                     |
-|--------------------|--------------|---------------------------------|
-| Hand Frame         | PLA          | Provides structure and durability |
-| Finger Joints      | PLA          | Articulating finger components  |
-| Motor Mounts       | PLA          | Secures motors in place         |
-
----
-
-### Interactive 3D Model
-<iframe src="https://a360.co/40GtGrs" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+| **Part**         | **Purpose**                        |
+|-----------------|----------------------------------|
+| Needle & Thread | To resew modified car components |
+| Soldering Kit   | To connect external components   |
+| Drill           | To secure potentiometer placement |
 
 ---
 
-### Operation
+## 🔌 Circuit Diagram
+*(Insert a link or embed the circuit diagram showing the wiring modifications, potentiometer integration, and external button connection.)*
+
+---
+
+## 🚗 Operation
 
 1. **Hardware Setup**:
-   - **EMG Sensor Placement**: Attach the MyoWare EMG sensors to the target muscle groups responsible for hand movements. Ensure proper skin contact for accurate signal detection.
-   - **Circuit Assembly**: Connect the EMG sensors, servo motors, and OLED display to the Arduino board as per the provided circuit diagram in the [Circuit Diagram](https://github.com/JKevin101/Bionic_Hand/blob/5ccf55b6d32624cabfeccd29a5afa77dec50e408/README.md).
+    - **Gas Pedal Replacement**: The **external push button** is wired to replace the gas pedal, allowing activation by hand instead of foot.
+    - **Speed Control**: A **potentiometer** is installed at the rear of the toy car, allowing parents to regulate speed.
+    - **Steering Wheel Modification**: **PVC grips** improve handling and control.
+    - **Wiring Safety**: All exposed wiring is insulated using **heat shrink tubing**.
 
-2. **Software Setup**:
-   - **Arduino IDE**: Download and install the [Arduino IDE](https://www.arduino.cc/en/software/).
-   - **Library Installation**: Within the Arduino IDE, install the necessary libraries:
-     - `Servo.h` for controlling the servo motors.
-     - `Wire.h`, `Adafruit_GFX.h`, and `Adafruit_SSD1306.h` for handling the OLED display.
-   - **Code Upload**: Open the Arduino code from [Arduino Code](https://github.com/JKevin101/Bionic_Hand/blob/5ccf55b6d32624cabfeccd29a5afa77dec50e408/Bionic_Hand_Code/Bionic_Hand_Code.ino) and upload it to the Arduino board.
+2. **Testing Process**:
+    - **Functionality Tests**: Ensure the external push button activates the motor properly.
+    - **Speed Regulation**: Test the potentiometer to confirm smooth speed adjustments.
+    - **Durability Tests**: Drop and impact tests ensure structural integrity.
+    - **Safety Compliance**: Confirm battery compartment security and wire insulation.
 
-3. **System Calibration**:
-   - **Power On**: Supply power to the Arduino board.
-   - **Signal Monitoring**: Observe the OLED display for real-time feedback on EMG signal strength and system status.
-   - **Threshold Adjustment**: If necessary, adjust the EMG signal thresholds in the code to match the user's muscle signal strength for optimal performance.
-
-4. **Operation**:
-   - **Muscle Activation**: Flex and extend the muscles where the EMG sensors are placed.
-   - **Hand Movement**: The bionic hand should mimic the user's muscle movements in real time, providing lifelike articulation.
+3. **Compliance Checks**:
+    - **Cord Length Limits (<12 inches) to prevent entanglement**.
+    - **Battery compartment requires tools to access**.
+    - **Strain relief mechanisms prevent wire stress**.
 
 ---
 
-### Conclusion
-This project demonstrates how bio-signal processing and 3D-printed engineering can create accessible, innovative solutions for prosthetic development, advancing functionality and usability for individuals requiring assistive devices.
+## 💰 Cost & Feasibility
+| **Item**                    | **Estimated Cost**   |
+|-----------------------------|------------------|
+| Materials (wires, connectors, tubing) | ~$35 |
+| Labor (10 hours)            | ~$250 |
+| Tools (drill, soldering iron, PVC cutter) | Existing |
+
+- **Total Cost:** ~$300
+- **All materials are readily available and cost-effective**.
+- **Basic soldering, wiring, and assembly skills required**.
+
+---
+
+## 🔍 Recommendations & Future Improvements
+- Implement **a cooling system for the potentiometer** to prevent overheating.
+- Explore **wireless remote control options** for added flexibility.
+- Develop **custom 3D-printed steering grips** for improved ergonomics.
+- Investigate **alternative materials** for increased durability and child safety.
+
+---
+
+## 📚 Conclusion
+This project demonstrates how **small, affordable modifications** can **transform a standard toy into an inclusive play solution** for children with disabilities. By **simplifying car operation** and allowing **parental control over speed**, this modification enhances accessibility, promotes **skill development**, and ensures **a safe, engaging experience**.
 
 ---
