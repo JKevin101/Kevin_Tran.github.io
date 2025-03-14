@@ -46,8 +46,7 @@ The project combines basic hardware modification, electrical safety consideratio
 ---
 
 ### Circuit Diagram
-![Circuit Diagram](/assets/img/Adaptive_Push_Button_Toy/Circuit_Diagram.png)
-
+![Circuit Diagram](assets/img/Adaptive_Push_Button_Toy/Circuit_Diagram.png)
 
 ---
 
