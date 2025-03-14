@@ -21,6 +21,11 @@ This innovative prosthetic device replicates natural hand movements by convertin
 
 {% include gallery caption="The image on the left displays an early prototype of the Bionic Hand, highlighting the integration of servo motors and initial wiring. The center image features the fully assembled bionic hand, showcasing its functional components and design. On the right is the circuit diagram, detailing the electrical connections and architecture of the EMG-controlled system." %}
 
+
+## Video Demonstration
+<iframe width="560" height="315" src="https://youtube.com/shorts/1Tsb31K6_5A" frameborder="0" allowfullscreen></iframe>
+
+
 ### Purpose and Features
 - Purpose: To develop a prosthetic hand that mimics natural hand movements using muscle activity data (EMG).
 - Key Features:
