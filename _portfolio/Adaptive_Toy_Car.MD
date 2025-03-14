@@ -83,15 +83,16 @@ This project modifies a standard toy car to improve accessibility for children w
 ---
 
 ## Cost & Feasibility
-| Item                      | Estimated Cost  |
-|---------------------------|----------------|
-| Materials (wires, connectors, tubing) | ~$35 |
-| Labor (10 hours)          | ~$250 |
+
+| Item                                | Estimated Cost  |
+|-------------------------------------|----------------|
+| Materials (wires, connectors, tubing) | ~$35          |
+| Labor (10 hours)                   | ~$250         |
 | Tools (drill, soldering iron, PVC cutter) | Existing |
 
-- Total Cost: ~$300
-- All materials are readily available and cost-effective.
-- Basic soldering, wiring, and assembly skills required.
+- **Total Cost:** ~$300  
+- All materials are readily available and cost-effective.  
+- Basic soldering, wiring, and assembly skills required.  
 
 ---
 
