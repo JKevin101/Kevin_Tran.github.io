@@ -23,7 +23,7 @@ This innovative prosthetic device replicates natural hand movements by convertin
 
 
 ## Video Demonstration
-<iframe width="560" height="315" src="https://youtube.com/shorts/1Tsb31K6_5A" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/shorts/1Tsb31K6_5A" frameborder="0" allowfullscreen></iframe>
 
 
 ### Purpose and Features
