@@ -4,7 +4,10 @@ excerpt: "This project modifies a children's toy to enhance accessibility for ch
 header:
   image: /assets/img/Adaptive_Push_Button_Toy/Full_Assembly.png
   teaser: /assets/img/Adaptive_Push_Button_Toy/Teaser.png
-
+gallery:
+  - url: /assets/img/Adaptive_Push_Button_Toy/Circuit_Diagram.png
+    image_path: /assets/img/Adaptive_Push_Button_Toy/Circuit_Diagram.png
+    alt: "Circuit_Diagram"
 ---
 
 This project enhances the accessibility of a children's toy by modifying its built-in push button into a larger, external push button, making it easier for children with Global Developmental Delay and Cerebral Palsy to engage with the toy. These modifications enable children with limited dexterity and cognitive delays to experience independent play and motor skill development.
@@ -46,7 +49,8 @@ The project combines basic hardware modification, electrical safety consideratio
 ---
 
 ### Circuit Diagram
-![Circuit Diagram](assets/img/Adaptive_Push_Button_Toy/Circuit_Diagram.png)
+{% include gallery caption="The image shows the internal framework of circuitry required to modify an external red button " %}
+
 
 ---
 
