@@ -4,10 +4,6 @@ excerpt: "This project modifies a children's toy to enhance accessibility for ch
 header:
   image: /assets/img/Adaptive_Push_Button_Toy/Full_Assembly.png
   teaser: /assets/img/Adaptive_Push_Button_Toy/Teaser.png
-gallery:
-  - url: /assets/img/Adaptive_Push_Button_Toy/Circuit_Diagram.png
-    image_path: /assets/img/Adaptive_Push_Button_Toy/Circuit_Diagram.png
-    alt: "Original unmodified toy"
 
 ---
 
@@ -16,9 +12,6 @@ This project enhances the accessibility of a children's toy by modifying its bui
 The project combines basic hardware modification, electrical safety considerations, and child-friendly design, demonstrating how simple changes can create inclusive play opportunities.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UGwhHsRSFCI" frameborder="0" allowfullscreen></iframe>
-
-
-{% include gallery caption="The gallery above shows the original toy before modification, the modified toy with the external button, and the circuit diagram detailing the new external connection." %}
 
 ### Purpose and Features
 - Purpose: To enhance toy accessibility for children with limited motor control and cognitive delays by replacing a small, embedded button with a large, external push button.
@@ -52,7 +45,9 @@ The project combines basic hardware modification, electrical safety consideratio
 ---
 
 ### Circuit Diagram
-*(Insert a link or embed the circuit diagram showing the original button wiring and modified external button integration.)*
+- url: /assets/img/Adaptive_Push_Button_Toy/Circuit_Diagram.png
+    image_path: /assets/img/Adaptive_Push_Button_Toy/Circuit_Diagram.png
+    alt: "Original unmodified toy"
 
 ---
 
