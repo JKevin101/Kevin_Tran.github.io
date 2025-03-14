@@ -15,6 +15,9 @@ This project enhances the accessibility of a children's toy by modifying its bui
 
 The project combines basic hardware modification, electrical safety considerations, and child-friendly design, demonstrating how simple changes can create inclusive play opportunities.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UGwhHsRSFCI" frameborder="0" allowfullscreen></iframe>
+
+
 {% include gallery caption="The gallery above shows the original toy before modification, the modified toy with the external button, and the circuit diagram detailing the new external connection." %}
 
 ### Purpose and Features
