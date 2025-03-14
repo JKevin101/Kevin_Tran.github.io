@@ -2,18 +2,12 @@
 title: "Toy Button Accessibility"
 excerpt: "This project modifies a children's toy to enhance accessibility for children with limited motor skills, using an external push button for easier interaction."
 header:
-  image: /assets/img/AccessibleToy/Modified_Toy.jpg
+  image: /assets/img/Adaptive_Push_Button_Toy/Full_Assembly.png
   teaser: /assets/img/Adaptive_Push_Button_Toy/Teaser.png
 gallery:
-  - url: /assets/img/OriginalToy.jpg
-    image_path: /assets/img/AccessibleToy/OriginalToy.jpg
+  - url: /assets/img/Adaptive_Push_Button_Toy/Circuit_Diagram.png
+    image_path: /assets/img/Adaptive_Push_Button_Toy/Circuit_Diagram.png
     alt: "Original unmodified toy"
-  - url: /assets/img/ModifiedToy.jpg
-    image_path: /assets/img/AccessibleToy/ModifiedToy.jpg
-    alt: "Modified toy with external button"
-  - url: /assets/img/CircuitDiagram.jpg
-    image_path: /assets/img/AccessibleToy/CircuitDiagram.jpg
-    alt: "Circuit diagram showing external button integration"
 
 ---
 
