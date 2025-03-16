@@ -287,3 +287,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
