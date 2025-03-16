@@ -2,18 +2,15 @@
 title: "Accessible Toy Car Modification"
 excerpt: "This project modifies a toy car to enhance accessibility for children with disabilities, using an external push button, a potentiometer for speed control, and a modified steering wheel."
 header:
-  image: /assets/img/AccessibleToyCar/Modified_Toy_Car.jpg
+  image: /assets/img/Adaptive_Toy_Car/Before.HEIC
   teaser: /assets/img/Adaptive_Toy_Car/Teaser.jpg
 gallery:
-  - url: /assets/img/OriginalCar.jpg
-    image_path: /assets/img/AccessibleToyCar/OriginalCar.jpg
+  - url: /assets/img/Adaptive_Toy_Car/Original.webp
+    image_path: /assets/img/Adaptive_Toy_Car/Original.webp
     alt: "Original toy car before modification"
-  - url: /assets/img/ModifiedCar.jpg
-    image_path: /assets/img/AccessibleToyCar/ModifiedCar.jpg
+  - url: /assets/img/Adaptive_Toy_Car/Finished_Car.jpg
+    image_path: /assets/img/Adaptive_Toy_Car/Finished_Car.jpg
     alt: "Modified toy car with accessibility features"
-  - url: /assets/img/CircuitDiagram.jpg
-    image_path: /assets/img/AccessibleToyCar/CircuitDiagram.jpg
-    alt: "Circuit diagram showing modifications"
 
 ---
 
