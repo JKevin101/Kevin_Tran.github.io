@@ -96,13 +96,13 @@ This project focuses on the design and fabrication of a Pinch Flow Fractionation
 
 To ensure that particles of different sizes travel at similar speeds and follow consistent path lengths, each outlet's position is calculated using:
 
-\[
+$$
 \left( \text{Pinch Section} - 0.06875 \text{ mm} \right) \times \left( \frac{\text{Broad Section}}{\text{Pinch Section}} \right)
-\]
+$$
 
-\[
+$$
 \left( \text{Pinch Section} - 0.23175 \text{ mm} \right) \times \left( \frac{\text{Broad Section}}{\text{Pinch Section}} \right)
-\]
+$$
 
 These equations account for different particle sizes while maintaining uniform velocity and streamline separation, ensuring optimal fractionation.
 
