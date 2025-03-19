@@ -2,8 +2,8 @@
 title: "Multi-Material Needle Nose Pliers"
 excerpt: "A functional, multi-material 3D printed needle nose pliers designed for gripping and manipulating through-hole resistors."
 header:
-  image: /assets/img/Pliers/Full_Assembly.jpg
-  teaser: /assets/img/Pliers/Teaser.jpg
+  image: /assets/img/MultiMaterial_Pliers/Background.jpg
+  teaser: /assets/img/MultiMaterial_Pliers/Teaser.jpg
 gallery:
   - url: /assets/img/Pliers/Prototype.jpg
     image_path: /assets/img/Pliers/Prototype.jpg
