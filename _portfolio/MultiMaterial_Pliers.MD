@@ -24,27 +24,20 @@ Print-in-place models are innovative designs that function immediately after bei
 ## Video Demonstration
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UGwhHsRSFCI" frameborder="0" allowfullscreen></iframe>
 
-Learn more about print-in-place mechanisms:
-- [Print-in-Place Tips](https://core-electronics.com.au/guides/print-in-place-tips/)
-- [Print-in-Place Spring Loaded Box](https://www.instructables.com/Print-in-Place-Spring-Loaded-Box/)
-
 ---
 
 ## Real-World Applications of Print-in-Place
 Print-in-place techniques have been widely adopted by hobbyists, engineers, and companies to create functional moving parts directly from the print bed. 
 
 ### Example Applications
-- **Windshield Wipers** – Hobbyists have used this technique to create windshield wipers where the handle is made of PLA or ABS for strength, while the wiper blade itself is printed using TPU for flexibility.  
-  *Source: [Reddit - 3D Printed Wiper](https://www.reddit.com/r/3Dprinting/comments/xyzabc/)*  
+- **Squeegee** – Hobbyists have used this technique to create window wipers where the handle is made of PLA or ABS for strength, while the wiper blade itself is printed using TPU for flexibility.  
+  *Source: [Yeggi - 3D Printed Squeegee](https://www.yeggi.com/q/tpu+squeegee/)*  
 
 - **Hinged Tools and Clamps** – Many designers create print-in-place clamps with built-in hinges for snap-fit clips or hand-tightened vices, often using PETG or PLA for rigidity and TPU for gripping surfaces.  
-  *Source: [Thingiverse - Print-in-Place Clamp](https://www.thingiverse.com/thing:2827439)*  
+  *Source: [Printables - Print-in-Place Clamp](https://www.printables.com/model/974751-clamp-print-in-place)*  
 
-- **Flexible Prosthetics** – Some prosthetic hands use PLA or PETG for rigid bones and TPU for flexible joints, allowing for lifelike movement without requiring assembly.  
-  *Source: [e-NABLE Prosthetics](https://enablingthefuture.org/)*  
-
-- **Functional Gears and Bearings** – Engineers have designed gears, universal joints, and bearing systems using Nylon or ABS for strength and TPU for dampening, reducing friction and noise in moving parts.  
-  *Source: [Hackaday - Print-in-Place Bearings](https://hackaday.com/2020/05/28/3d-printed-print-in-place-bearing-design/)*  
+- **Spring Loaded Box** – A 3D-printable, spring-loaded storage box designed in Fusion 360, featuring built-in flexing mechanisms that eliminate the need for assembly.
+  *Source: [AutoDesk Instructables - Print-in-Place Spring Loaded Box](https://www.instructables.com/Print-in-Place-Spring-Loaded-Box/)*  
 
 ---
 
@@ -105,12 +98,11 @@ The design allows for hand-pressed assembly without the need for additional tool
 | Cooling Fan       | On           | Off/Low     |
 | Print Speed       | 60-100 mm/s  | 20-40 mm/s  |
 
-*Source: [Creality Filaments Parameter Guide](https://store.creality.com/blog/creality-3d-printer-filaments-type-parameter)*  
+[Creality Filaments Parameter Guide](https://store.creality.com/blog/creality-3d-printer-filaments-type-parameter)
 
 ---
 
 ## CAD Model  
-An interactive view of the CAD model is embedded below for a more detailed understanding of the design.
 
 <iframe src="https://a360.co/4bFuyR6" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
 
