@@ -19,108 +19,120 @@ gallery:
 ## Project Overview
 This project focuses on creating functional, multi-material needle nose pliers using 3D printing techniques. The pliers are designed to grip and manipulate through-hole resistors, utilizing print-in-place manufacturing and elastomeric materials to achieve a flexible, spring-return mechanism.
 
-**Print-in-place models** are innovative designs that function immediately after being printed without the need for additional assembly. These designs often rely on careful clearances between moving parts and precise print orientations. While single-material extrusion is common, incorporating flexible components can greatly enhance functionality, resulting in smoother and more controlled movements.
+Print-in-place models are innovative designs that function immediately after being printed without the need for additional assembly. These designs often rely on careful clearances between moving parts and precise print orientations. While single-material extrusion is common, incorporating flexible components can greatly enhance functionality.
 
-*Learn more about print-in-place mechanisms:*
+## Video Demonstration
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UGwhHsRSFCI" frameborder="0" allowfullscreen></iframe>
+
+Learn more about print-in-place mechanisms:
 - [Print-in-Place Tips](https://core-electronics.com.au/guides/print-in-place-tips/)
 - [Print-in-Place Spring Loaded Box](https://www.instructables.com/Print-in-Place-Spring-Loaded-Box/)
 
 ---
 
 ## Real-World Applications of Print-in-Place
-Print-in-place techniques have been widely adopted by hobbyists, engineers, and companies to create functional moving parts directly from the print bed. Here are some examples:
+Print-in-place techniques have been widely adopted by hobbyists, engineers, and companies to create functional moving parts directly from the print bed. 
 
-- **Windshield Wipers** – Hobbyists have used print-in-place techniques to create **windshield wipers** where the handle is made of **PLA or ABS** for structural strength, while the wiper blade itself is printed using **TPU** to provide the necessary flexibility.  
+### Example Applications:
+- **Windshield Wipers** – Hobbyists have used this technique to create windshield wipers where the handle is made of **PLA or ABS** for strength, while the wiper blade itself is printed using **TPU** for flexibility.  
   *Source: [Reddit - 3D Printed Wiper](https://www.reddit.com/r/3Dprinting/comments/xyzabc/)*  
 
-- **Hinged Tools and Clamps** – Many 3D printing enthusiasts have designed **print-in-place clamps** that feature **built-in hinges**, allowing them to function as **snap-fit clips** or **hand-tightened vices**. These are commonly printed in **PETG or PLA** for rigidity and **TPU for gripping surfaces**.  
+- **Hinged Tools and Clamps** – Many designers create print-in-place clamps with built-in hinges for **snap-fit clips** or **hand-tightened vices**, often using **PETG or PLA** for rigidity and **TPU for gripping surfaces**.  
   *Source: [Thingiverse - Print-in-Place Clamp](https://www.thingiverse.com/thing:2827439)*  
 
-- **Flexible Prosthetics** – Companies and makers have leveraged print-in-place techniques to produce **prosthetic hands and fingers** that use **PLA or PETG for rigid bones** and **TPU for flexible joints**, eliminating the need for assembly while maintaining lifelike motion.  
+- **Flexible Prosthetics** – Some prosthetic hands use **PLA or PETG for rigid bones** and **TPU for flexible joints**, allowing for lifelike movement without requiring assembly.  
   *Source: [e-NABLE Prosthetics](https://enablingthefuture.org/)*  
 
-- **Functional Gears and Bearings** – Engineers have created **gears, universal joints, and bearing systems** using print-in-place techniques, often combining **Nylon or ABS for strength** and **TPU for dampening** to reduce friction and noise in moving parts.  
+- **Functional Gears and Bearings** – Engineers have designed **gears, universal joints, and bearing systems** using **Nylon or ABS for strength** and **TPU for dampening**, reducing friction and noise in moving parts.  
   *Source: [Hackaday - Print-in-Place Bearings](https://hackaday.com/2020/05/28/3d-printed-print-in-place-bearing-design/)*  
-
-These applications highlight the **versatility** of print-in-place designs, demonstrating how **different materials can be strategically combined** to enhance performance.
 
 ---
 
 ## Design and Iterative Process
-The needle nose pliers were designed with a nine-part assembly to accommodate the capabilities of the available 3D printers. The components include:
+The needle nose pliers were designed with a **nine-part assembly** to accommodate the capabilities of the available 3D printers. 
 
-- **Four rigid parts:** Two handles and two tips, printed from PLA for structural integrity.
-- **Two rubber tips:** Made from TPU to provide enhanced grip on small components.
-- **Two handle grips:** Also made from TPU to improve user comfort.
-- **One flexible inner piece:** Crafted from TPU, acting as a spring mechanism to return the pliers to the open position.
+### Components:
+- **Four rigid parts:** Two handles and two tips (PLA)
+- **Two rubber tips:** Provides grip for handling resistors (TPU)
+- **Two handle grips:** Improves comfort (TPU)
+- **One flexible inner piece:** Acts as a spring mechanism (TPU)
 
-### Iterative Process  
-During the design phase, I went through **three iterations** of the pliers before achieving the final working version:
+## Design Iteration & Prototyping  
+Refining the pliers required multiple test prints to achieve the best balance of **fit, strength, and flexibility**. Below is the progression of three key iterations:  
 
-1. **First Attempt:** The tolerance was too loose, causing the parts to **fall apart when clicked together**.
-2. **Second Attempt:** The fit was improved, but the **thickness of the pliers was too thin**, leading them to **bend the wrong way under pressure**.
-3. **Final Version:** Adjustments were made to **increase thickness** for strength and **fine-tune the tolerances**. TPU **rubberized tips and handles** were added for better grip and usability.
+{% include gallery caption="From left to right: Initial prototype testing, design iteration for optimized spring geometry, and the final working model of the pliers." %}  
 
-*Design Inspiration:*  
+1. **First Attempt:** The **tolerance was too loose**, causing parts to **fall apart** when clicked together.  
+2. **Second Attempt:** The fit was improved, but the **thickness was too thin**, making the pliers **bend the wrong way** under pressure.  
+3. **Final Version:** Increased thickness for durability, refined tolerances, and incorporated **TPU rubberized tips and handles** for enhanced grip.  
+
+This iterative process ensured a **functional print-in-place mechanism** while maintaining a strong, yet flexible, spring action.  
+
+
+### Design Inspiration:  
 The initial design was inspired by modernist print-in-place pliers found in [this article](https://all3dp.com/3d-printed-flexible-pliers/). The **triangle patterning** was developed based on a **3x3 flexible square piece**, with suppressed patterns to balance durability and flexibility.
 
-*Material Selection:*
-- **PLA (Polylactic Acid):** Chosen for the rigid components due to its strength and ease of printing.
-- **TPU (Thermoplastic Polyurethane):** Selected for the flexible components, providing the necessary elasticity for the spring mechanism and enhanced grip surfaces.
+### Materials Used:
+- **PLA (Polylactic Acid):** For rigid handles and tips
+- **TPU (Thermoplastic Polyurethane):** For flexible spring, grips, and rubberized tips  
 
-*Assembly Method:*
-The design allows for a **hand-pressed assembly** without the need for additional tools. Tolerances were carefully calibrated to ensure a snug fit for the rigid components, while looser tolerances were applied to the rubber grips and tips to accommodate TPU flexibility.
-
----
-
-## Specifications
-- **Jaw Length:** Approximately 51 mm
-- **Jaw Capacity:** Approximately 10 mm
-- **Materials:**
-  - *Handles and Tips:* PLA
-  - *Rubber Tips and Handle Grips:* TPU
-  - *Inner Spring Component:* TPU
-- **Assembly:** Hand-pressed, no tools required
-- **Printer Used:** Creality K1C
+### Assembly Method:
+The design allows for **hand-pressed assembly** without the need for additional tools.  
+- **Tight tolerances** ensure a snug fit for rigid components.  
+- **Looser tolerances** accommodate TPU flexibility in grips and tips.  
 
 ---
 
-## Print Settings
-*Comparison of PLA and TPU Print Settings:*
+## Specifications  
 
-| Parameter           | PLA                         | TPU                         |
-|---------------------|-----------------------------|-----------------------------|
-| Nozzle Temperature  | 200-220°C                   | 210-230°C                   |
-| Bed Temperature     | 50-60°C                     | 30-60°C                     |
-| Cooling Fan         | On                          | Off or Low                  |
-| Print Speed         | 60-100 mm/s                 | 20-40 mm/s                  |
-
-*Source: [Creality Filaments Parameter Guide](https://store.creality.com/blog/creality-3d-printer-filaments-type-parameter)*
-
+| Feature            | Measurement |
+|--------------------|------------|
+| **Jaw Length**    | ~51 mm     |
+| **Jaw Capacity**  | ~10 mm     |
+| **Square Size**   | 6 mm       |
+| **Tip Thickness** | 1.5 mm     |
+| **Grip Thickness**| 3 mm       |
+| **Tight Tolerance**  | 0.1 mm  |
+| **Looser Tolerance** | 0.15 mm |
 
 ---
 
-## CAD Model
+## Print Settings  
+
+### Comparison of PLA and TPU Settings  
+
+| Parameter          | PLA          | TPU          |
+|--------------------|-------------|-------------|
+| Nozzle Temp       | 200-220°C    | 210-230°C   |
+| Bed Temp          | 50-60°C      | 30-60°C     |
+| Cooling Fan       | On           | Off/Low     |
+| Print Speed       | 60-100 mm/s  | 20-40 mm/s  |
+
+*Source: [Creality Filaments Parameter Guide](https://store.creality.com/blog/creality-3d-printer-filaments-type-parameter)*  
+
+### Additional Print Settings:  
+- **Layer Height:** 0.2 mm  
+- **Infill Density:** 20% for rigid parts, 100% for flexible parts  
+- **Support Material:** Minimal, only where necessary  
+- **Nozzle Size:** 0.4 mm  
+- **Bed Temperature:** 60°C for PLA, 50°C for TPU  
+
+---
+
+## CAD Model  
 An interactive view of the CAD model is embedded below for a more detailed understanding of the design.
 
 <iframe src="https://a360.co/4bFuyR6" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
 
 ---
 
-## Image Gallery
-{% include gallery caption="From left to right: Initial prototype testing, design iteration for optimized spring geometry, and the final working model of the pliers." %}
+## Operation and Use  
+1. **Assembly:** Align and press the components together. No tools required.  
+2. **Testing:** Check for proper movement and spring-back function.  
+3. **Use:** Grip and manipulate through-hole resistors or similar small components.  
 
 ---
 
-## Operation and Use
-1. **Assembly:** Align and press the components together according to the design specifications. No tools are required; the parts are designed for a snug fit.
-2. **Testing:** Confirm the spring-back function and check for smooth movement.
-3. **Use:** Grip and manipulate through-hole resistors or similar small components with precision.
+## Conclusion  
+This project demonstrates how **multi-material 3D printing** can be used to create **functional, print-in-place designs**. By strategically combining rigid and flexible materials, these pliers effectively grip small electronic components while maintaining durability and usability.
 
-*Demonstration:*
-![Pliers in Action](https://example.com/assets/img/Pliers/Demo.gif)
-
----
-
-## Conclusion
-This project demonstrates the potential of combining rigid and flexible materials in 3D printed designs. The final product effectively grips small electronic components, showcasing the value 
