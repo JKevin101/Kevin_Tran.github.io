@@ -2,8 +2,8 @@
 title: "Pinch Flow Fractionation Microfluidic Device"
 excerpt: "This project develops a PFF microfluidic device that sorts particles by size for use in diagnostics, environmental monitoring, and pharmaceutical research."
 header:
-  image: /assets/img/Device_Assembly.jpg
-  teaser: /assets/img/Teaser.jpg
+  image: /assets/img/Micro_Fluidic_Device/Background.jpg
+  teaser: /assets/img/Micro_Fluidic_Device/Teaser.jpg
 gallery:
   - url: /assets/img/Mold_Photo.jpg
     image_path: /assets/img/Mold_Photo.jpg
