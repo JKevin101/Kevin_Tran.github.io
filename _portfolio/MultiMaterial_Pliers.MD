@@ -1,6 +1,6 @@
 ---
-title: "Multi-Material Needle Nose Pliers"
-excerpt: "A functional, multi-material 3D printed needle nose pliers designed for gripping and manipulating through-hole resistors."
+title: "Multi-Material Pliers"
+excerpt: "A functional, multi-material 3D printed pliers designed for gripping and manipulating through-hole resistors."
 header:
   image: /assets/img/MultiMaterial_Pliers/Background.jpg
   teaser: /assets/img/MultiMaterial_Pliers/Teaser.jpg
@@ -17,7 +17,7 @@ gallery:
 ---
 
 ## Project Overview
-This project focuses on creating functional, multi-material needle nose pliers using 3D printing techniques. The pliers are designed to grip and manipulate through-hole resistors, utilizing print-in-place manufacturing and elastomeric materials to achieve a flexible, spring-return mechanism.
+This project focuses on creating functional, multi-material pliers using 3D printing techniques. The pliers are designed to grip and manipulate through-hole resistors, utilizing print-in-place manufacturing and elastomeric materials to achieve a flexible, spring-return mechanism.
 
 Print-in-place models are innovative designs that function immediately after being printed without the need for additional assembly. These designs often rely on careful clearances between moving parts and precise print orientations. While single-material extrusion is common, incorporating flexible components can greatly enhance functionality.
 
@@ -49,7 +49,7 @@ Print-in-place techniques have been widely adopted by hobbyists, engineers, and 
 ---
 
 ## Design and Iterative Process
-The needle nose pliers were designed with a **nine-part assembly** to accommodate the capabilities of the available 3D printers. 
+The print-in-place pliers were designed with a **nine-part assembly** to accommodate the capabilities of the available 3D printers. 
 
 ### Components:
 - **Four rigid parts:** Two handles and two tips (PLA)
