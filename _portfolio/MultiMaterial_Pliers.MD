@@ -5,14 +5,14 @@ header:
   image: /assets/img/MultiMaterial_Pliers/Background.jpg
   teaser: /assets/img/MultiMaterial_Pliers/Teaser.jpg
 gallery:
-  - url: /assets/img/Pliers/Prototype.jpg
-    image_path: /assets/img/Pliers/Prototype.jpg
+  - url: /assets/img/MultiMaterial_Pliers/Initial_Prototype.jpg
+    image_path: /assets/img/MultiMaterial_Pliers/Initial_Prototype.jpg
     alt: "Initial Prototype"
-  - url: /assets/img/Pliers/Iteration.jpg
-    image_path: /assets/img/Pliers/Iteration.jpg
+  - url: /assets/img/MultiMaterial_Pliers/Design_Iteration.jpg
+    image_path: /assets/img/MultiMaterial_Pliers/Design_Iteration.jpg
     alt: "Design Iteration"
-  - url: /assets/img/Pliers/Working.jpg
-    image_path: /assets/img/Pliers/Working.jpg
+  - url: /assets/img/MultiMaterial_Pliers/Final_Working_Model.jpg
+    image_path: /assets/img/MultiMaterial_Pliers/Final_Working_Model.jpg
     alt: "Final Working Model"
 ---
 
