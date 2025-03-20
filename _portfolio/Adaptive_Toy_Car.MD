@@ -11,7 +11,7 @@ gallery:
   - url: /assets/img/Adaptive_Toy_Car/Internal_Circuitry.jpg
     image_path: /assets/img/Adaptive_Toy_Car/Internal_Circuitry.jpg
     alt: "Original inside toy car circuit"
-- url: /assets/img/Adaptive_Toy_Car/Modified_Circuit.jpg
+  - url: /assets/img/Adaptive_Toy_Car/Modified_Circuit.jpg
     image_path: /assets/img/Adaptive_Toy_Car/Modified_Circuit.jpg
     alt: "Modified toy car circuit sketch"
 
