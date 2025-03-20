@@ -22,7 +22,7 @@ This project focuses on creating functional, multi-material pliers using 3D prin
 Print-in-place models are innovative designs that function immediately after being printed without the need for additional assembly. These designs often rely on careful clearances between moving parts and precise print orientations. While single-material extrusion is common, incorporating flexible components can greatly enhance functionality.
 
 ## Video Demonstration
-<iframe width="560" height="315" src="https://youtube.com/shorts/B2_-Hpu_usE?si=yQFeSVbG96jFcw2_" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B2_-Hpu_usE" frameborder="0" allowfullscreen></iframe>
 
 ---
 
