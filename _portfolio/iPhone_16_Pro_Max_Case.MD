@@ -56,7 +56,7 @@ All elements were successfully integrated, including a refined fit, optimized bu
 - Supports: Tree supports for efficient material usage.
 
 ## CAD Model
-<iframe src="https://a360.co/example-link" width="800" height="600" allowfullscreen frameborder="0"></iframe>
+<iframe src="https://a360.co/4iHNhhj" width="800" height="600" allowfullscreen frameborder="0"></iframe>
 
 ## Conclusion
 This custom phone case demonstrates how 3D printing can provide a cost-effective, personalized alternative to mass-produced cases. By utilizing TPU and parametric modeling, the final product achieves an ideal balance between durability, flexibility, and customization.
