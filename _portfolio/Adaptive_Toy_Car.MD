@@ -5,18 +5,22 @@ header:
   image: /assets/img/Adaptive_Toy_Car/Before.HEIC
   teaser: /assets/img/Adaptive_Toy_Car/Teaser.jpg
 gallery:
-  - url: /assets/img/Adaptive_Toy_Car/Original.webp
-    image_path: /assets/img/Adaptive_Toy_Car/Original.webp
-    alt: "Original toy car before modification"
-  - url: /assets/img/Adaptive_Toy_Car/Finished_Car.jpg
-    image_path: /assets/img/Adaptive_Toy_Car/Finished_Car.jpg
-    alt: "Modified toy car with accessibility features"
+  - url: /assets/img/Adaptive_Toy_Car/Original_Circuit.jpg
+    image_path: /assets/img/Adaptive_Toy_Car/Original_Circuit.jpg
+    alt: "Original toy car circuit sketch"
+  - url: /assets/img/Adaptive_Toy_Car/Internal_Circuitry.jpg
+    image_path: /assets/img/Adaptive_Toy_Car/Internal_Circuitry.jpg
+    alt: "Original inside toy car circuit"
+- url: /assets/img/Adaptive_Toy_Car/Modified_Circuit.jpg
+    image_path: /assets/img/Adaptive_Toy_Car/Modified_Circuit.jpg
+    alt: "Modified toy car circuit sketch"
 
 ---
 
 This project modifies a standard toy car to improve accessibility for children with disabilities, particularly those who face challenges with motor control. The modifications include an external push button for simplified operation, a potentiometer for adjustable speed control, and a modified steering wheel for easier grip. These changes allow children with limited dexterity and mobility impairments to engage in play, fostering both independence and skill development.
 
-{% include gallery caption="The gallery above shows the original toy car before modification, the modified version with enhanced accessibility features, and the circuit diagram detailing the electrical changes." %}
+## Video Demonstration
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eiFa-loAUUQ" frameborder="0" allowfullscreen></iframe>
 
 ---
 
@@ -54,7 +58,7 @@ This project modifies a standard toy car to improve accessibility for children w
 ---
 
 ## Circuit Diagram
-![Circuit Diagram](/assets/img/AccessibleToyCar/CircuitDiagram.jpg)
+{% include gallery caption="The gallery above shows the original circuit sketch, the original picture circuit in the toy car, and the modified circuit sketch with enhanced accessibility features." %}
 
 ---
 
