@@ -2,7 +2,7 @@
 title: "Accessible Toy Car Modification"
 excerpt: "This project modifies a toy car to enhance accessibility for children with disabilities, using an external push button, a potentiometer for speed control, and a modified steering wheel."
 header:
-  image: /assets/img/Adaptive_Toy_Car/Before.HEIC
+  image: /assets/img/Adaptive_Toy_Car/Background.png
   teaser: /assets/img/Adaptive_Toy_Car/Teaser.jpg
 gallery:
   - url: /assets/img/Adaptive_Toy_Car/Original_Circuit.jpg
