@@ -1,6 +1,6 @@
 ---
 title: "Multi-Material Pliers"
-excerpt: "A functional, multi-material 3D printed pliers designed for gripping and manipulating through-hole resistors."
+excerpt: "This project develops a functional, multi-material 3D printed pliers designed for gripping and manipulating through-hole resistors."
 header:
   image: /assets/img/MultiMaterial_Pliers/Background.jpg
   teaser: /assets/img/MultiMaterial_Pliers/Teaser.jpg
