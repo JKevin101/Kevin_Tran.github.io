@@ -5,14 +5,14 @@ header:
   image: /assets/img/Micro_Fluidic_Device/Background.jpg
   teaser: /assets/img/Micro_Fluidic_Device/Teaser.jpg
 gallery:
-  - url: /assets/img/Mold_Photo.jpg
-    image_path: /assets/img/Mold_Photo.jpg
+  - url: /assets/img/Micro_Fluidic_Device/Image_1.jpg
+    image_path: /assets/img/Micro_Fluidic_Device/Image_1.jpg
     alt: "3D printed mold image"
-  - url: /assets/img/Final_Device.jpg
-    image_path: /assets/img/Final_Device.jpg
+  - url: /assets/img/Micro_Fluidic_Device/Image_2.jpg
+    image_path: /assets/img/Micro_Fluidic_Device/Image_2.jpg
     alt: "final device image"
-  - url: /assets/img/Channel_Diagram.png
-    image_path: /assets/img/Channel_Diagram.png
+  - url: /assets/img/Micro_Fluidic_Device/Image_3.jpg
+    image_path: /assets/img/Micro_Fluidic_Device/Image_3.jpg
     alt: "channel geometry visualization"
 ---
 
@@ -65,7 +65,7 @@ This project focuses on the design and fabrication of a Pinch Flow Fractionation
     - This prevents PDMS adhesion and ensures smooth channels.
 
 3. PDMS Casting:
-    - Mix PDMS base and curing agent (10:1 ratio).
+    - Mix PDMS base and curing agent.
     - Degas and pour over the coated mold.
     - Cure at 70°C for 2 hours, then demold.
 
@@ -122,19 +122,9 @@ These equations account for different particle sizes while maintaining uniform v
 
 ---
 
-## Bonus Attempt (If Applicable)
-We experimented with:
-- Dual-stage separation by adding a second separation zone downstream.
-- Fluorescence tracking for particle verification during sorting.
-
-Although alignment between layers proved challenging, initial results were promising.
-
----
-
 ## References
 
-1. Yamada, M., & Seki, M. (2005). Hydrodynamic filtration for on-chip particle concentration and classification utilizing microfluidics. *Lab on a Chip*, 5(11), 1233-1239. [https://doi.org/10.1039/b508677a](https://doi.org/10.1039/b508677a)
-2. Whitesides, G. M. (2006). The origins and the future of microfluidics. *Nature*, 442(7101), 368-373. [https://doi.org/10.1038/nature05058](https://doi.org/10.1038/nature05058)
+1. Whitesides, G. M. (2006). The origins and the future of microfluidics. *Nature*, 442(7101), 368-373. [https://doi.org/10.1038/nature05058](https://doi.org/10.1038/nature05058)
 
 ---
 
