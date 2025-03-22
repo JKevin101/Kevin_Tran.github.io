@@ -76,9 +76,9 @@ This project focuses on the design and fabrication of a Pinch Flow Fractionation
 
 ---
 
-## Design Discussion
+## Design Description
 
-### Why Coat Molds with Parylene?
+### Parylene Coating
 - Prevents PDMS adhesion to the resin mold.
 - Provides smoother surfaces for laminar flow.
 - Enhances mold reusability.
@@ -108,6 +108,17 @@ These equations account for different particle sizes while maintaining uniform v
 
 ---
 
+gallery:
+  - url: /assets/img/Micro_Fluidic_Device/Schematic.png
+    image_path: /assets/img/Micro_Fluidic_Device/Schematic.png
+    alt: "New Fusion 360 diagram showing outlet calculations"
+
+## Schematic Outlet Paths
+
+{% include gallery caption="The diagram illustrates the calculated outlet positions based on particle size separation. The equations above determine the optimal locations for size-based sorting in outlet positions." %}
+
+---
+
 ## Future Improvements
 - Refine channel geometry to enhance separation resolution.
 - Introduce curved inlet regions for smoother particle focusing.
@@ -122,11 +133,11 @@ These equations account for different particle sizes while maintaining uniform v
 
 ---
 
-## References
-
-1. Whitesides, G. M. (2006). The origins and the future of microfluidics. *Nature*, 442(7101), 368-373. [https://doi.org/10.1038/nature05058](https://doi.org/10.1038/nature05058)
+## Conclusion
+This project demonstrates the potential of combining 3D printing, precision fluid control, and microfluidic design principles to achieve robust, scalable particle separation. Such technology can power next-generation diagnostics, environmental testing, and advanced material sorting.
 
 ---
 
-## Conclusion
-This project demonstrates the potential of combining 3D printing, precision fluid control, and microfluidic design principles to achieve robust, scalable particle separation. Such technology can power next-generation diagnostics, environmental testing, and advanced material sorting.
+## References
+
+1. Whitesides, G. M. (2006). The origins and the future of microfluidics. *Nature*, 442(7101), 368-373. [https://doi.org/10.1038/nature05058](https://doi.org/10.1038/nature05058)
