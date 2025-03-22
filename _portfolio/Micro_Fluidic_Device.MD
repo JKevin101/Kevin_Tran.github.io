@@ -108,14 +108,11 @@ These equations account for different particle sizes while maintaining uniform v
 
 ---
 
-gallery:
-  - url: /assets/img/Micro_Fluidic_Device/Schematic.png
-    image_path: /assets/img/Micro_Fluidic_Device/Schematic.png
-    alt: "New Fusion 360 diagram showing outlet calculations"
+## Outlet Calculation Diagram
 
-## Schematic Outlet Paths
+![Fusion 360 Outlet Calculation](/assets/img/Micro_Fluidic_Device/Schematic.png)
 
-{% include gallery caption="The diagram illustrates the calculated outlet positions based on particle size separation. The equations above determine the optimal locations for size-based sorting in outlet positions." %}
+*Figure: Fusion 360 diagram illustrating the calculated outlet positions based on particle size separation.*
 
 ---
 
