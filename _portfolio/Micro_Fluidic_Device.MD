@@ -108,15 +108,6 @@ These equations account for different particle sizes while maintaining uniform v
 
 ---
 
-## Outlet Calculation Diagram
-
-<p style="text-align: center;">
-  <img src="assets/img/Micro_Fluidic_Device/Schematic.png" alt="Figure: Fusion 360 diagram illustrating outlet positions." width="600">
-</p>
-
-
----
-
 ## Future Improvements
 - Refine channel geometry to enhance separation resolution.
 - Introduce curved inlet regions for smoother particle focusing.
