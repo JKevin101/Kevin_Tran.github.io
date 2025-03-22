@@ -110,7 +110,7 @@ These equations account for different particle sizes while maintaining uniform v
 
 ## Outlet Calculation Diagram
 
-![Fusion 360 Outlet Calculation](/assets/img/Micro_Fluidic_Device/Schematic.png)
+![Fusion 360 Schematic](assets/img/Micro_Fluidic_Device/Schematic.png)
 
 *Figure: Fusion 360 diagram illustrating the calculated outlet positions based on particle size separation.*
 
