@@ -12,7 +12,7 @@ gallery:
     image_path: /assets/img/MultiMaterial_Pliers/Design_Iteration.jpg
     alt: "Design Iteration"
   - url: /assets/img/MultiMaterial_Pliers/Final_Working_Model.jpg
-    image_path: /assets/img/MultiMaterial_Pliers/Final_Working_Model.jpg
+    image_path: /assets/img/MultiMaterial_Pliers/GIF.gif
     alt: "Final Working Model"
 ---
 
