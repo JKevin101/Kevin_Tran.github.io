@@ -20,7 +20,7 @@ gallery:
 This project modifies a standard toy car to improve accessibility for children with disabilities, particularly those who face challenges with motor control. The modifications include an external push button for simplified operation, a potentiometer for adjustable speed control, and a modified steering wheel for easier grip. These changes allow children with limited dexterity and mobility impairments to engage in play, fostering both independence and skill development.
 
 ## Video Demonstration
-<iframe width="560" height="315" src="https://youtube.com/shorts/a-m4LnRQ_Mg" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a-m4LnRQ_Mg" frameborder="0" allowfullscreen></iframe>
 
 ---
 
