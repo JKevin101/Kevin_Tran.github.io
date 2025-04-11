@@ -66,18 +66,18 @@ This project focuses on the design and fabrication of a phone mount holder for a
 
 This section includes images and descriptions of the individual components used in the phone mount holder:
 
+
 | **Component**       | **Description**                                        | **Image**                                      |
 |---------------------|--------------------------------------------------------|------------------------------------------------|
-| **Mount**           | The primary structure that attaches to the bike handlebar, providing support for the phone holder. | ![Mount](assets/img/Phone_Mount_Holder/Mount.png) |
-| **Clip**            | A clip that securely holds the phone in place.         | ![Clip](assets/img/Phone_Mount_Holder/Clip.png) |
-| **Ball Rod**        | The component that allows the rotation mechanism to move the phone horizontally. | ![Ball Rod](assets/img/Phone_Mount_Holder/Ball_Rod.png) |
-| **Detent Base**     | The base of the detent mechanism that ensures the phone stays in place at the desired orientation. | ![Detent Base](assets/img/Phone_Mount_Holder/Detent_Base.png) |
-| **Detent**          | The ball-bearing mechanism that locks the phone in place at specific rotation angles. | ![Detent](assets/img/Phone_Mount_Holder/Detent.png) |
-| **Top Detent**      | The top part of the detent mechanism that works in conjunction with the detent base. | ![Top Detent](assets/img/Phone_Mount_Holder/Top_Detent.png) |
-| **Phone Mount**     | The part that holds the phone securely in place during use. | ![Phone Mount](assets/img/Phone_Mount_Holder/Phone_Mount.png) |
-| **Top Plate**       | The top plate that provides additional structural support and stability for the entire assembly. | ![Top Plate](assets/img/Phone_Mount_Holder/Top_Plate.png) |
+| **Mount**           | The primary structure that attaches to the bike handlebar, providing support for the phone holder. | <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAA..." alt="Mount" width="200"/> |
+| **Clip**            | A clip that securely holds the phone in place.         | <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAA..." alt="Clip" width="200"/> |
+| **Ball Rod**        | The component that allows the rotation mechanism to move the phone horizontally. | <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAA..." alt="Ball Rod" width="200"/> |
+| **Detent Base**     | The base of the detent mechanism that ensures the phone stays in place at the desired orientation. | <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAA..." alt="Detent Base" width="200"/> |
+| **Detent**          | The ball-bearing mechanism that locks the phone in place at specific rotation angles. | <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAA..." alt="Detent" width="200"/> |
+| **Top Detent**      | The top part of the detent mechanism that works in conjunction with the detent base. | <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAA..." alt="Top Detent" width="200"/> |
+| **Phone Mount**     | The part that holds the phone securely in place during use. | <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAA..." alt="Phone Mount" width="200"/> |
+| **Top Plate**       | The top plate that provides additional structural support and stability for the entire assembly. | <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAA..." alt="Top Plate" width="200"/> |
 
-<img src="assets/img/Phone_Mount_Holder/Mount.png" alt="Mount" width="300"/>
 
 
 ---
