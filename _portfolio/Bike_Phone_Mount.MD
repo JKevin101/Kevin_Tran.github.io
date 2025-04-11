@@ -5,17 +5,17 @@ header:
   image: /assets/img/Phone_Mount_Holder/GIF
   teaser: /assets/img/Phone_Mount_Holder/Teaser.jpg
 gallery:
-  - url: /assets/img/Phone_Mount_Holder/Section Analysis.png
-    image_path: /assets/img/Phone_Mount_Holder/Section Analysis.png
-    alt: "Section Analysis"
   - url: /assets/img/Phone_Mount_Holder/Render.png
     image_path: /assets/img/Phone_Mount_Holder/Render.png
     alt: "Render"
+  - url: /assets/img/Phone_Mount_Holder/Section Analysis.png
+    image_path: /assets/img/Phone_Mount_Holder/Section Analysis.png
+    alt: "Section Analysis"
 ---
 
 This project focuses on the design and fabrication of a phone mount holder for a bike or scooter. The holder allows for quick attachment and secure rotation between portrait and landscape orientations without requiring tools. It incorporates a detent mechanism to provide tactile feedback for rotation and ensures the phone remains securely gripped while riding.
 
-{% include gallery caption="The images showcase the development process: the left image shows the current prototype of the phone mount holder, the center image displays the 3D printed assembly, and the right image highlights the phone in portrait and landscape orientations in the holder." %}
+{% include gallery caption="The images showcase the final design: the left image shows the final design of the phone mount holder and the right image displays the section analysis of detent mechanism as well as the final section design" %}
 
 ## Purpose and Features
 - **Purpose**: Design and fabricate a functional phone holder that securely attaches to bike or scooter handlebars, allowing easy rotation between landscape and portrait modes.
@@ -79,40 +79,41 @@ This project focuses on the design and fabrication of a phone mount holder for a
 
 ---
 
-## Gallery of Components
+## Components
 
 This section includes images and descriptions of the individual components used in the phone mount holder:
 
 - **Mount**: The primary structure that attaches to the bike handlebar, providing support for the phone holder.
   
-![Mount](/assets/img/Phone_Mount_Holder/Mount.jpg)
+![Mount](assets/img/Phone_Mount_Holder/Mount.png)
 
 - **Clip**: A clip that securely holds the phone in place.
 
-![Clip](/assets/img/Phone_Mount_Holder/Clip.jpg)
+![Clip](assets/img/Phone_Mount_Holder/Clip.png)
 
 - **Ball Rod**: The component that allows the rotation mechanism to move the phone horizontally.
 
-![Ball Rod](/assets/img/Phone_Mount_Holder/Ball_Rod.jpg)
+![Ball Rod](assets/img/Phone_Mount_Holder/Ball_Rod.png)
 
 - **Detent Base**: The base of the detent mechanism that ensures the phone stays in place at the desired orientation.
 
-![Detent Base](/assets/img/Phone_Mount_Holder/Detent_Base.jpg)
+![Detent Base](assets/img/Phone_Mount_Holder/Detent_Base.png)
 
 - **Detent**: The ball-bearing mechanism that locks the phone in place at specific rotation angles.
 
-![Detent](/assets/img/Phone_Mount_Holder/Detent.jpg)
+![Detent](assets/img/Phone_Mount_Holder/Detent.png)
 
 - **Top Detent**: The top part of the detent mechanism that works in conjunction with the detent base.
 
-![Top Detent](/assets/img/Phone_Mount_Holder/Top_Detent.jpg)
+![Top Detent](assets/img/Phone_Mount_Holder/Top_Detent.png)
 
 - **Phone Mount**: The part that holds the phone securely in place during use.
 
-![Phone Mount](/assets/img/Phone_Mount_Holder/Phone_Mount.jpg)
+![Phone Mount](assets/img/Phone_Mount_Holder/Phone_Mount.png)
 
 - **Top Plate**: The top plate that provides additional structural support and stability for the entire assembly.
 
-![Top Plate](/assets/img/Phone_Mount_Holder/Top_Plate.jpg)
+![Top Plate](assets/img/Phone_Mount_Holder/Top_Plate.png)
+
 
 ---
