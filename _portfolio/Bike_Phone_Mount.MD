@@ -2,7 +2,7 @@
 title: "Bike Phone Mount Holder"
 excerpt: "This project involves designing and 3D printing a phone holder for a bike or scooter, allowing for easy attachment and secure rotation between portrait and landscape orientations."
 header:
-  image: /assets/img/Phone_Mount_Holder/GIF
+  image: /assets/img/Phone_Mount_Holder/Teaser.jpg
   teaser: /assets/img/Phone_Mount_Holder/Teaser.jpg
 gallery:
   - url: /assets/img/Phone_Mount_Holder/Render.png
@@ -11,9 +11,9 @@ gallery:
   - url: /assets/img/Phone_Mount_Holder/Section Analysis.png
     image_path: /assets/img/Phone_Mount_Holder/Section Analysis.png
     alt: "Section Analysis"
-  - url: /assets/img/Phone_Mount_Holder/Section Analysis.png
-    image_path: /assets/img/Phone_Mount_Holder/Section Analysis.png
-    alt: "Section Analysis"
+  - url: /assets/img/Phone_Mount_Holder/GIF.gif
+    image_path: /assets/img/Phone_Mount_Holder/GIF.gif
+    alt: "GIF"
 ---
 
 This project focuses on the design and fabrication of a phone mount holder for a bike or scooter. The holder allows for quick attachment and secure rotation between portrait and landscape orientations without requiring tools. It incorporates a detent mechanism to provide tactile feedback for rotation and ensures the phone remains securely gripped while riding.
@@ -78,6 +78,7 @@ This section includes images and descriptions of the individual components used 
 | **Phone Mount**     | The part that holds the phone securely in place during use. | <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAA..." alt="Phone Mount" width="200"/> |
 | **Top Plate**       | The top plate that provides additional structural support and stability for the entire assembly. | <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAA..." alt="Top Plate" width="200"/> |
 
+![Mount](./assets/img/Phone_Mount_Holder/Mount.png)
 
 
 ---
