@@ -23,7 +23,12 @@ This project focuses on the design and fabrication of a phone mount holder for a
 ---
 
 ## Video Demonstration
-<iframe width="560" height="315" src="https://youtube.com/shorts/_Dmmy5fxc8g?feature=share" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/_Dmmy5fxc8g" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
+
 
 ===
 
