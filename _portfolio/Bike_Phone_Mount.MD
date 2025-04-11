@@ -62,18 +62,6 @@ This project focuses on the design and fabrication of a phone mount holder for a
 
 ---
 
-## Render and Section Analysis
-
-- **Render**: This image provides a visual representation of the final design for the bike phone mount holder.
-
-![Render](assets/img/Phone_Mount_Holder/Render.jpg)
-
-- **Section Analysis**: The section analysis shows the internal details of the mount, including the placement of the detent mechanism and the phone holder.
-
-![Section Analysis](assets/img/Phone_Mount_Holder/Section_Analysis.jpg)
-
----
-
 ## Components
 
 This section includes images and descriptions of the individual components used in the phone mount holder:
@@ -89,6 +77,7 @@ This section includes images and descriptions of the individual components used 
 | **Phone Mount**     | The part that holds the phone securely in place during use. | ![Phone Mount](assets/img/Phone_Mount_Holder/Phone_Mount.png) |
 | **Top Plate**       | The top plate that provides additional structural support and stability for the entire assembly. | ![Top Plate](assets/img/Phone_Mount_Holder/Top_Plate.png) |
 
+<img src="assets/img/Phone_Mount_Holder/Mount.png" alt="Mount" width="300"/>
 
 
 ---
