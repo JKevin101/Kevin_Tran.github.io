@@ -2,18 +2,9 @@
 title: "Bike Phone Mount Holder"
 excerpt: "This project involves designing and 3D printing a phone holder for a bike or scooter, allowing for easy attachment and secure rotation between portrait and landscape orientations."
 header:
-  image: /assets/img/Phone_Mount_Holder/Background.jpg
+  image: /assets/img/Phone_Mount_Holder/GIF
   teaser: /assets/img/Phone_Mount_Holder/Teaser.jpg
-gallery:
-  - url: /assets/img/Phone_Mount_Holder/Image_1.jpg
-    image_path: /assets/img/Phone_Mount_Holder/Image_1.jpg
-    alt: "Current prototype of phone mount holder"
-  - url: /assets/img/Phone_Mount_Holder/Image_2.jpg
-    image_path: /assets/img/Phone_Mount_Holder/Image_2.jpg
-    alt: "3D printed phone holder assembly"
-  - url: /assets/img/Phone_Mount_Holder/Image_3.jpg
-    image_path: /assets/img/Phone_Mount_Holder/Image_3.jpg
-    alt: "Phone in portrait and landscape orientations in holder"
+gallery: []
 ---
 
 This project focuses on the design and fabrication of a phone mount holder for a bike or scooter. The holder allows for quick attachment and secure rotation between portrait and landscape orientations without requiring tools. It incorporates a detent mechanism to provide tactile feedback for rotation and ensures the phone remains securely gripped while riding.
@@ -30,92 +21,92 @@ This project focuses on the design and fabrication of a phone mount holder for a
 
 ---
 
-## Parts List
-
-### Off-the-Shelf Components
-
-| Part                 | Quantity | Description                          |
-|----------------------|----------|--------------------------------------|
-| Compression Springs  | 2        | To provide rotation resistance       |
-| Ball Bearings         | 2        | For smooth rotation mechanism        |
-| M3 Fasteners          | 4        | For securing components              |
-
-### Custom Fabricated Components
-
-| Part                 | Material        | Purpose                              |
-|----------------------|-----------------|--------------------------------------|
-| Mounting Bracket     | PLA             | Custom-designed to attach to handlebars |
-| Phone Holder Base    | PLA             | Holds the phone securely in place     |
-| Rotation Mechanism   | PLA and Steel   | Allows phone rotation between portrait and landscape |
+## Top-Down Modeling Description and Process
+- This project leveraged the top-down modeling approach by starting with the highest-level component (the bike mount). From there, I worked down to design the phone case holder, incorporating a detent mechanism to help support the range of motion for rotating the phone between portrait and landscape orientations. This approach allowed me to focus on fitting components together efficiently while ensuring functionality.
 
 ---
 
-## Interactive 3D Model
-<iframe src="https://a360.co/41Q40YN" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+## Rationale Behind the Design
+- The design was based on a hinge mechanism for the mount, allowing easy installation. The use of two detent mechanisms provides the necessary degrees of freedom to rotate the phone and lock it securely in place in both orientations. This approach balances ease of use with secure, stable mounting for the phone.
 
 ---
 
-## Fabrication Process
-
-1. **Design the Holder**:
-    - Create the phone holder model using CAD software, ensuring precise measurements for phone fit and handlebar compatibility.
-
-2. **3D Printing**:
-    - Print components using PLA filament for a balance of strength and flexibility.
-    - Test each part for functionality and durability.
-
-3. **Assembly**:
-    - Integrate the detent mechanism with ball bearings and compression springs for smooth rotation.
-    - Assemble all components securely using M3 fasteners.
-
-4. **Testing**:
-    - Test the holder on bike handlebars, ensuring stability during rides and ease of rotation between orientations.
+## Rotation Mechanism Used
+- Two detent mechanisms were used to rotate the phone horizontally and vertically. This mechanism worked well due to the use of ball bearings and springs, which ensured the phone snapped securely into place when rotated. The harder springs provided the necessary resistance for smooth rotation and secure placement.
 
 ---
 
-## Design Description
+## Adjustments for 3D Printing
+- All dimensions required tolerance adjustments, with a loose tolerance of 0.15 mm for the holes used for screws and nuts. This ensured that each part could move freely without being too tight while maintaining enough resistance to keep the parts securely in place and prevent any loose connections during use.
 
-### Detent Mechanism
-- Provides tactile feedback when rotating the phone between orientations.
-- Ensures phone stays in place during movement but is easy to rotate when necessary.
+---
+
+## 3D Printing Technology Used
+- The primary printing technology used was FFF (Fused Filament Fabrication) with the Creality K1C printer. This allowed for rapid prototyping and testing of tolerances, making it easier to refine the design. The final version of the mount and detent mechanism was printed using SLS (Selective Laser Sintering) with nylon for greater durability, as PLA would not provide enough strength to maintain its structural integrity in harsh conditions.
+
+---
+
+## Assembly Instructions
+- Assembly involves combining multiple parts together using screws, nuts, ball bearings, and compression springs. To use the mount, simply tighten a screw once to hold the mount securely in place. The degree of freedom allows for easy adjustment, and the phone can be securely held in place without any risk of falling out.
+
+---
+
+## Printing Technology for Each Part
+- The mount and detent mechanism were made using SLS with nylon, ensuring durability and resistance to breakage under tough conditions. The phone holder was made from PLA, as it didn't require as much strength to hold the phone. The grip was added to the mount for better adhesion to the bicycle handlebar, while the phone holder compresses and grips the phone securely.
+
+---
+
+## CAD Model
+<iframe src="https://a360.co/3XX2wuJ" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+
+---
+
+## Render and Section Analysis
+
+- **Render**: This image provides a visual representation of the final design for the bike phone mount holder.
+
+![Render](assets/img/Phone_Mount_Holder/Render.jpg)
+
+- **Section Analysis**: The section analysis shows the internal details of the mount, including the placement of the detent mechanism and the phone holder.
+
+![Section Analysis](assets/img/Phone_Mount_Holder/Section_Analysis.jpg)
+
+---
+
+## Gallery of Components
+
+This section includes images and descriptions of the individual components used in the phone mount holder:
+
+- **Mount**: The primary structure that attaches to the bike handlebar, providing support for the phone holder.
   
-### Dimensions and Clearances
+![Mount](assets/img/Phone_Mount_Holder/Mount.jpg)
 
-| Parameter            | Value      | Purpose                             |
-|----------------------|------------|-------------------------------------|
-| Handlebar Clamp Diameter | 22.2 mm  | Fits standard handlebar sizes       |
-| Phone Holder Width    | 85 mm      | Fits most smartphones               |
-| Rotation Angle        | 180°       | Allows full rotation between orientations |
+- **Clip**: A clip that securely holds the phone in place.
 
-### Rotation Mechanism Calculation
+![Clip](assets/img/Phone_Mount_Holder/Clip.jpg)
 
-The detent mechanism is designed to engage at 45° intervals, calculated to provide secure locking positions for both portrait and landscape orientations:
+- **Ball Rod**: The component that allows the rotation mechanism to move the phone horizontally.
 
-$$
-\text{Rotation Angle} = 360^\circ / \text{Number of Notches}
-$$
+![Ball Rod](assets/img/Phone_Mount_Holder/Ball_Rod.jpg)
 
----
+- **Detent Base**: The base of the detent mechanism that ensures the phone stays in place at the desired orientation.
 
-## Future Improvements
-- Improve detent mechanism for smoother rotation.
-- Add adjustable grip to accommodate phones of varying sizes.
-- Explore different materials for enhanced durability and vibration resistance.
+![Detent Base](assets/img/Phone_Mount_Holder/Detent_Base.jpg)
 
----
+- **Detent**: The ball-bearing mechanism that locks the phone in place at specific rotation angles.
 
-## Hypothetical Applications
-- **Cycling**: Secure phone holder for cyclists, allowing navigation and music control.
-- **Scooters**: Convenient phone access for electric scooter riders.
-- **Motorcycles**: High-strength design for motorbike handlebars.
+![Detent](assets/img/Phone_Mount_Holder/Detent.jpg)
 
----
+- **Top Detent**: The top part of the detent mechanism that works in conjunction with the detent base.
 
-## Conclusion
-This project demonstrates how a 3D printed, tool-free phone holder can enhance the functionality of bike and scooter accessories. With its secure grip and easy rotation, it offers an innovative solution for riders who rely on their phones during their travels.
+![Top Detent](assets/img/Phone_Mount_Holder/Top_Detent.jpg)
+
+- **Phone Mount**: The part that holds the phone securely in place during use.
+
+![Phone Mount](assets/img/Phone_Mount_Holder/Phone_Mount.jpg)
+
+- **Top Plate**: The top plate that provides additional structural support and stability for the entire assembly.
+
+![Top Plate](assets/img/Phone_Mount_Holder/Top_Plate.jpg)
 
 ---
-
-## References
-
-1. Doe, J. (2022). *Designing Detent Mechanisms for Rotation Systems*. *Journal of Mechanical Engineering*, 45(3), 123-130. [https://doi.org/10.1234/jme.2022.12345](https://doi.org/10.1234/jme.2022.12345)
