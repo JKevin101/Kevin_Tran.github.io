@@ -29,8 +29,7 @@ This project focuses on the design and fabrication of a phone mount holder for a
   allowfullscreen>
 </iframe>
 
-
-===
+---
 
 ## Top-Down Modeling Description and Process
 - This project leveraged the top-down modeling approach by starting with the highest-level component (the bike mount). From there, I worked down to design the phone case holder, incorporating a detent mechanism to help support the range of motion for rotating the phone between portrait and landscape orientations. This approach allowed me to focus on fitting components together efficiently while ensuring functionality.
