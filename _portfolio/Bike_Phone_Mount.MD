@@ -78,7 +78,7 @@ This section includes images and descriptions of the individual components used 
 | **Phone Mount**     | The part that holds the phone securely in place during use. | <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAA..." alt="Phone Mount" width="200"/> |
 | **Top Plate**       | The top plate that provides additional structural support and stability for the entire assembly. | <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAA..." alt="Top Plate" width="200"/> |
 
-![Mount](./assets/img/Phone_Mount_Holder/Mount.png)
+![Mount](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...)
 
 
 ---
