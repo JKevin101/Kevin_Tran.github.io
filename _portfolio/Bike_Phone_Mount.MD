@@ -1,6 +1,6 @@
 ---
 title: "Bike Phone Mount Holder"
-excerpt: "This project involves designing and 3D printing a phone holder for a bike or scooter, allowing for easy attachment and secure rotation between portrait and landscape orientations."
+excerpt: "This project involves designing and 3D printing a phone holder for a bike, allowing for easy attachment and secure rotation between orientations."
 header:
   image: /assets/img/Phone_Mount_Holder/Components.png
   teaser: /assets/img/Phone_Mount_Holder/Teaser.jpg
