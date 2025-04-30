@@ -82,13 +82,3 @@ Generative design also excels in fields where lightweight and efficiency are ess
 | Vertical Pressure  | 300 N     | Connection to the clamp     | Simulates the vertical pressure from the mug's weight |
 
 ---
-
-## Multimedia
-
-- Real-Life Image(s): Images of the mug holder in use on a desk, showing its functionality.
-  
-- .GIF: A .gif showing the holder in use, highlighting its stability and ease of access.
-
-- Fusion 360 Iterations: Screenshots of different design iterations in Fusion 360, showing how the model evolved through the generative design process.
-
----
