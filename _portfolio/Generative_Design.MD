@@ -2,29 +2,29 @@
 title: "Mug Holder Design"
 excerpt: "This project involves designing a mug holder for a desk to optimize space and keep workspaces organized using generative design in Fusion 360."
 header:
-  image: /assets/img/Mug_Holder/Components.png
-  teaser: /assets/img/Mug_Holder/Teaser.jpg
+  image: /assets/img/Generative_Design/Teaser.jpg
+  teaser: /assets/img/Generative_Design/Teaser.jpg
 gallery:
-  - url: /assets/img/Mug_Holder/Render.png
-    image_path: /assets/img/Mug_Holder/Render.png
+  - url: /assets/img/Generative_Design/Render.png
+    image_path: /assets/img/Generative_Design/Render.png
     alt: "Render"
-  - url: /assets/img/Mug_Holder/Section Analysis.png
-    image_path: /assets/img/Mug_Holder/Section Analysis.png
-    alt: "Section Analysis"
-  - url: /assets/img/Mug_Holder/GIF.gif
-    image_path: /assets/img/Mug_Holder/GIF.gif
+  - url: /assets/img/Generative_Design/Design_Examples.png
+    image_path: /assets/img/Generative_Design/Design_Examples.png
+    alt: "Designs"
+  - url: /assets/img/Generative_Design/GIF.gif
+    image_path: /assets/img/Generative_Design/GIF.gif
     alt: "GIF"
 ---
 
 This project focuses on the design and fabrication of a mug holder intended to be placed on the side of a desk. The holder helps keep desks uncluttered by utilizing vertical space, making it ideal for environments where space is limited. The design was created using generative design in Fusion 360, optimizing the structure based on forces acting when the mug is placed on the holder.
 
-{% include gallery caption="The images showcase the final design: the left image shows the final render of the mug holder, the right image displays the section analysis, and the .gif demonstrates the holder's functionality in normal use." %}
+{% include gallery caption="The images showcase the final design: the left image shows the final render of the mug holder, the right image displays the different generative design outcomes, and the .gif demonstrates the holder's functionality in normal use." %}
 
 ---
 
 ## Video Demonstration
 <iframe width="560" height="315" 
-  src="https://www.youtube.com/embed/your-video-id" 
+  src="https://www.youtube.com/embed/o_VVrviIlS4?feature=share" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
